@@ -1,0 +1,72 @@
+/**
+ * Sheet to import fonts to be used and to define text styles.
+ */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* STYLES */
+$f_extra_light: 200;
+$f_light: 300;
+$f_regular: 400;
+$f_semi_bold: 600;
+$f_bold: 700;
+$f_extra_bold: 800;
+$f_black: 900;
+
+/* TEXT STYLES */
+@include breakpoint($b_initial)
+{
+  body /**/
+  {
+    font-family: 'Open Sans', sans-serif;
+  	font-weight: $f_regular;
+    font-size: 16px;
+    color: $c_text_dark;
+    -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+    -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
+  }
+
+  h1 /**/
+  {
+    font-family: 'Muli', sans-serif;
+    font-weight: $f_semi_bold;
+    font-size: 10vw;
+  	color: $c_text_white;
+  }
+
+  p /**/
+  {
+    font-weight: $f_regular;
+    font-size: 14px;
+  	color: $c_text_dark;
+    line-height: 24px;
+  }
+
+  b
+  {
+    font-weight: $f_bold;
+  }
+
+  *:focus
+  {
+    outline: none;
+  }
+
+  a,
+  a:hover,
+  a:visited,
+  a:link,
+  a:active
+  {
+    text-decoration: none;
+  }
+
+  a:hover
+  {
+    cursor: pointer;
+  }
+
+
+}
