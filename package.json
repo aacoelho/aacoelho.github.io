@@ -5,11 +5,11 @@
   "homepage": "aacoelho.github.io",
   "license": "MIT",
   "scripts": {
-    "start": "yarn run blendid",
-    "build": "yarn run blendid -- build"
-  },
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "blendid": "^4.4.3",
+    "gh-pages": "^1.1.0",
     "gulp-file-include": "^2.0.1"
   }
 }
