@@ -1,18 +1,28 @@
-{#
-  Nunjucks Templating!
-  Homepage: https://mozilla.github.io/nunjucks/
-  Docs: https://mozilla.github.io/nunjucks/api.html
-#}
+@@include('partials/_header.html')
+@@include('partials/_menu.html')
 
-{% extends 'layouts/application.html' %}
+  <section class="container container_home">
 
-{% block content %}
-  <h1 data-module="example">{{ message }}</h1>
-  <img src="images/eu_fofa.png" style="width:30px" alt="">
+    <div class="landingSection">
+      <h1 class="landingSection_title f_displayExtra">Ângela Coelho</h1>
+      <p class="landingSection_slogan f_textExtra">Print + Programming</p>
+      <div class="landingSection_arrow"></div>
+    </div>
 
-  @@include('./partials/_project_avatar.html', {
-    "title": "Lusíadas",
-    "slug": "lusiadas"
-  })
+    <div class="selectedWorks">
+      <h2 class="selectedWorks_title f_displaySection">Selected works:</h2>
+      <div class="selectedWorks_list">
+        @@loop('partials/_project_avatar.html', [
+          {"slug": "hyp", "title": "HYP", "type": "UX/UI Design + Development", "image": ""},
+          {"slug": "poetry", "title": "Poetry as Sound", "type": "Sonification", "image": ""},
+          {"slug": "twaw", "title": "The World Around Women", "type": "Exhibition Design", "image": ""},
+          {"slug": "ened", "title": "ENED", "type": "Graphic Design", "image": ""},
+          {"slug": "periferia", "title": "Periferia", "type": "Typography", "image": ""},
+          {"slug": "polis", "title": "Polis", "type": "Branding + UX/UI Design", "image": ""}
+        ])
+      </div>
+    </div>
 
-{% endblock %}
+  </section>
+
+@@include('partials/_footer.html')

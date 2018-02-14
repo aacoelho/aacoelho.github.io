@@ -1,7 +1,28 @@
-{% extends 'layouts/application.html' %}
-{% block content %}
+@@include('../partials/_header.html')
+@@include('../partials/_menu.html')
 
   <h1>@@title</h1>
-  <p>@@description</p>
 
-{% endblock %}
+  <ul>
+  @@for (var i = 0; i < gallery.length; i++) {
+    <li>`+gallery[i].caption+`</li>
+  }
+  </ul>
+
+  <div class="details">
+    <h3>@@details.title</h3>
+    @@for (var i = 0; i < details.item.length; i++) {
+      <div class="details_item">
+        <p>`+details.item[i].subtitle+`</p>
+        <p>`+details.item[0].list[1]+`</p>
+
+        <ul class="details_item_list">
+        </ul>
+      </div>
+    }
+  </div>
+
+@@include('../partials/_next_project.html', {
+  "slug": "@@next.slug",
+  "title": "@@next.title"
+})
