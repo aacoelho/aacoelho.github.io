@@ -7,11 +7,9 @@
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <section class="container container_{{ page.page }}">
+      {{ content }}
+    </section>
 
     {% include footer.html %}
 
