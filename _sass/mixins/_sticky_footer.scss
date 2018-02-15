@@ -1,0 +1,56 @@
+/**
+ * Adapted from: https://codepen.io/chriscoyier/pen/uwJjr
+ *
+ * HTML example:
+   <html>
+     <head>
+       Stuff
+     </head>
+
+     <div class="page_wrap">
+       <nav>
+         Olá
+       </nav>
+
+       <body>
+         Stuff
+       </body>
+     </div>
+
+     <footer>
+       Adeus
+     </footer>
+   </html>
+ *
+ * Usage if you're using the default elements (previous example):
+ * @include sticky-footer(30px);
+ *
+ * Usage if you want to define the elements:
+ * @include sticky-footer(30px, '.page', '.footer');
+ *
+ */
+
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".page_wrap"), $footer-selector: unquote("footer"))
+{
+
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #{$wrapper-selector}
+  {
+    /* .push must be the same height as footer */
+  	flex: 1 0 auto;
+  }
+
+  #{$footer-selector}
+  {
+    /* .push must be the same height as footer */
+    height: $footer-height;
+    display: grid;
+  }
+
+}

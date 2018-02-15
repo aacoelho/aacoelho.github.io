@@ -1,0 +1,12 @@
+/* Footer */
+
+@include sticky-footer($s_footer_height, ".container", "footer");
+
+@include breakpoint($b_initial)
+{
+
+  footer
+  {
+    background-color: $c_footer;
+  }
+}
