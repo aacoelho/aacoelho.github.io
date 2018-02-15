@@ -1,3 +1,32 @@
-<footer class="site-footer h-card">
+{% if page.page != "post" %}
+  <footer class="footer">
+    <div class="footer_action">
+      <h2 class="footer_action_title f_displaySection">Contact me:</h2>
+      <a href="mailto:{{ site.email }}?subject=feedback" class="footer_action_link">{{ site.email }}</a>
+    </div>
+    <ul class="footer_social">
+      {% for social in site.data.social %}
+        {% include social.html %}
+      {% endfor %}
+    </ul>
+    <div class="footer_arrow">
+    </div>
+  </footer>
 
-</footer>
+{% else %}
+
+  <footer class="footer">
+    <div class="footer_action">
+      <h2 class="footer_action_title f_displaySection">See next project:</h2>
+      {% for post in site.posts %}
+        {% assign nextproject = page.index | plus: 1 | modulo:site.posts.size %}
+        {% if post.index == nextproject %}
+          <a href="{{ post.url | relative_url }}" class="footer_action_link">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="footer_arrow">
+    </div>
+  </footer>
+
+{% endif %}
