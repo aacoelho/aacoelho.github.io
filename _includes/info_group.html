@@ -1,0 +1,15 @@
+<div class="moreInfo_group moreInfo_group-{{ group.tag }}">
+  {% if group.title != blank %}
+    <h3 class="moreInfo_group_title f_displayGroup">{{ group.title }}</h3>
+  {% endif %}
+  {% for item in group.item %}
+    <div class="moreInfo_item">
+      <h4 class="moreInfo_item_subtitle f_displayItem">{{ item.subtitle }}</h4>
+      <ul>
+        {% for text in item.text %}
+        <li>{{ text.line }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1 class="container_title f_displaySection">
+  {{ page.title | escape }}
+</h1>
+<div class="info">
+  <p class="info_description f_textBig">
+    {{ page.bio }}
+  </p>
+  <img src="" alt="" class="info_image">
+</div>
+<div class="moreInfo">
+  {% assign group = page.experience %}
+  {% include info_group.html %}
+
+  {% assign group = page.events %}
+  {% include info_group.html %}
+
+  {% assign group = page.tools %}
+  {% include info_group.html %}
+
+  <a href="" class="moreInfo_group moreInfo_group-link f_textNormal f_textNormal-link" download>
+    Download full Resume
+  </a>
+
+  {% assign group = page.website %}
+  {% include info_group.html %}
+</div>

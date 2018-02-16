@@ -1,6 +1,6 @@
 ---
 layout: post
-page: "post"
+tag: "post"
 permalink: /:title
 index: 2
 title:  "The world around women"
