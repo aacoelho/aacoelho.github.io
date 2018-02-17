@@ -8,19 +8,23 @@
     {% include header.html %}
 
     <section class="container container-{{ page.tag }}">
+
       {% if page.tag != "home" %}
         <div class="container_head">
+
           <h1 class="container_head_title f_displaySection">
             {{ page.title | escape }}
           </h1>
-          {% if page.type != blank %}
-          <p class="container_head_type f_textExtra">
-            {{ page.type }}
-          </p>
+
+          {% if page.type != nil and page.type != "" %}
+            <p class="container_head_type f_textExtra">
+              {{ page.type }}
+            </p>
           {% endif %}
+
         </div>
       {% endif %}
-      
+
       {{ content }}
     </section>
 

@@ -9,7 +9,12 @@ layout: default
 </div>
 
 <div class="gallery">
-
+  <div class="gallery_item">
+    <img src="" alt="" class="gallery_item_img">
+    
+    <p class="gallery_item_caption f_textSmall">
+    </p>
+  </div>
 </div>
 
 <div class="moreInfo">
@@ -17,7 +22,7 @@ layout: default
   {% include info_group.html %}
 
   {% if page.link != nil and page.link != "" %}
-    <a target="_blank" class="moreInfo_link f_textNormal f_textNormal-link" href="{{ page.link }}">
+    <a target="_blank" class="moreInfo_group moreInfo_group-link f_textNormal f_textNormal-link" href="{{ page.link }}">
       Visit Website
     </a>
   {% endif %}
@@ -26,6 +31,4 @@ layout: default
     {% assign group = page.references %}
     {% include info_group.html %}
   {% endif %}
-
-
 </div>

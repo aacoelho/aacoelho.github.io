@@ -1,13 +1,23 @@
 <div class="moreInfo_group moreInfo_group-{{ group.tag }}">
+
   {% if group.title != nil and group.title != "" %}
-    <h3 class="moreInfo_group_title f_displayGroup">{{ group.title }}</h3>
+    <h3 class="moreInfo_group_title f_displayGroup">
+      {{ group.title }}
+    </h3>
   {% endif %}
+
   {% for item in group.item %}
     <div class="moreInfo_item">
-      <h4 class="moreInfo_item_subtitle f_displayItem">{{ item.subtitle }}</h4>
+
+      <h4 class="moreInfo_item_subtitle f_displayItem">
+        {{ item.subtitle }}
+      </h4>
+
       <ul class="moreInfo_item_list">
         {% for text in item.text %}
-          <li class="f_textNormal">{{ text.line }}</li>
+          <li class="f_textNormal">
+            {{ text.line }}
+          </li>
         {% endfor %}
       </ul>
 
@@ -16,6 +26,8 @@
           Open
         </a>
       {% endif %}
+
     </div>
   {% endfor %}
+
 </div>

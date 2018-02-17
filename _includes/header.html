@@ -1,10 +1,29 @@
 <nav class="menu">
+
   <ul class="menu_list">
-    <li class="menu_list">
-      <a class="menu_list_link f_link" rel="author" href="{{ "/" | relative_url }}">Home</a>
+    <li>
+      {% if page.tag == "home" %}
+        <a class="menu_list_link f_link f_link-active" rel="author" href="{{ "/" | relative_url }}">
+          Home
+        </a>
+      {% else %}
+        <a class="menu_list_link f_link" rel="author" href="{{ "/" | relative_url }}">
+          Home
+        </a>
+      {% endif %}
     </li>
-    <li class="menu_list">
-      <a class="menu_list_link f_link" href="/about">About</a>
+
+    <li>
+      {% if page.tag == "about" %}
+        <a class="menu_list_link f_link f_link-active" href="/about">
+          About
+        </a>
+      {% else %}
+        <a class="menu_list_link f_link" href="/about">
+          About
+        </a>
+      {% endif %}
     </li>
   </ul>
+
 </nav>
