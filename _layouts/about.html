@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<h1 class="container_title f_displaySection">
-  {{ page.title | escape }}
-</h1>
 <div class="info">
   <p class="info_description f_textBig">
     {{ page.bio }}
   </p>
   <img src="" alt="" class="info_image">
 </div>
+
 <div class="moreInfo">
   {% assign group = page.experience %}
   {% include info_group.html %}

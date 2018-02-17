@@ -5,7 +5,39 @@ permalink: /:title
 index: 2
 title:  "The world around women"
 type: "Exhibition Design"
+description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
 img: ""
+description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+link: "http://hypsoftware.com/pt"
+gallery:
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: ""
+    caption: "Landing Section animation, that explores the concept of the identity."
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: Photography Edition
+        - line: UX/UI Design
+        - line: Front-end Development
+    - subtitle: Technologies
+      text:
+        - line: Sketch
+        - line: HTML
+        - line: SASS
+        - line: jQuery
+        - line: Ruby on Rails
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

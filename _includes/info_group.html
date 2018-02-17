@@ -1,15 +1,21 @@
 <div class="moreInfo_group moreInfo_group-{{ group.tag }}">
-  {% if group.title != blank %}
+  {% if group.title != nil and group.title != "" %}
     <h3 class="moreInfo_group_title f_displayGroup">{{ group.title }}</h3>
   {% endif %}
   {% for item in group.item %}
     <div class="moreInfo_item">
       <h4 class="moreInfo_item_subtitle f_displayItem">{{ item.subtitle }}</h4>
-      <ul>
+      <ul class="moreInfo_item_list">
         {% for text in item.text %}
-        <li>{{ text.line }}</li>
+          <li class="f_textNormal">{{ text.line }}</li>
         {% endfor %}
       </ul>
+
+      {% if item.link != nil and item.link != "" %}
+        <a target="_blank" class="moreInfo_item_link f_textNormal f_textNormal-link" href="{{ item.link }}">
+          Open
+        </a>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
