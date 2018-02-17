@@ -1,0 +1,7 @@
+<div class="gallery_item">
+  {% assign img_path = "/assets/projects" | append: page.url | append: "/" | append: image.img %}
+  <img src="{{ img_path | absolute_url }}" alt="" class="gallery_item_img">
+  <p class="gallery_item_caption f_textSmall">
+    {{ image.caption }}
+  </p>
+</div>

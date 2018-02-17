@@ -9,12 +9,10 @@ layout: default
 </div>
 
 <div class="gallery">
-  <div class="gallery_item">
-    <img src="" alt="" class="gallery_item_img">
-    
-    <p class="gallery_item_caption f_textSmall">
-    </p>
-  </div>
+  {% assign gallery = page.gallery %}
+  {% for image in gallery %}
+    {% include gallery_item.html %}
+  {% endfor %}
 </div>
 
 <div class="moreInfo">

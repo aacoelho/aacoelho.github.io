@@ -2,7 +2,7 @@
 
   <ul class="menu_list">
     <li>
-      {% if page.tag == "home" %}
+      {% if page.layout == "home" %}
         <a class="menu_list_link f_link f_link-active" rel="author" href="{{ "/" | relative_url }}">
           Home
         </a>
@@ -14,7 +14,7 @@
     </li>
 
     <li>
-      {% if page.tag == "about" %}
+      {% if page.layout == "about" %}
         <a class="menu_list_link f_link f_link-active" href="/about">
           About
         </a>

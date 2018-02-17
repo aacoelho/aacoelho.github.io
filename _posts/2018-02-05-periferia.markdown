@@ -40,7 +40,7 @@ details:
         - line: Ruby on Rails
 references:
   tag: references
-  title: Additional Information
+  title: Additional information
   item:
     - text:
         - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.

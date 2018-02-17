@@ -4,7 +4,7 @@ tag: "post"
 permalink: /:title
 index: 3
 title:  "ENED"
-type: "Graphic Design"
+type: "Graphic design"
 description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
 img: ""
 description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
@@ -40,7 +40,7 @@ details:
         - line: Ruby on Rails
 references:
   tag: references
-  title: Additional Information
+  title: Additional information
   item:
     - text:
         - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.

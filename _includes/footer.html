@@ -1,35 +1,30 @@
-{% if page.tag != "post" %}
-  <footer class="footer">
-
-    <div class="footer_action">
-      <h2 class="footer_action_title f_displaySection">
-        Contact me:
-      </h2>
-      <a href="mailto:{{ site.email }}?subject=feedback" class="footer_action_link f_displaySection f_displaySection-link">
-        {{ site.email }}
-      </a>
-    </div>
-
-    <ul class="footer_social">
-      {% for social in site.data.social %}
-        {% include social.html %}
-      {% endfor %}
-    </ul>
-
-    <div class="footer_arrow">
-    </div>
-
-  </footer>
-
+{% if page.layout != "post" %}
+  {% assign action = "Contacte me:" %}
 {% else %}
+  {% assign action = "See next project:" %}
+{% endif %}
 
-  <footer class="footer">
+<footer class="footer">
 
-    <div class="footer_action">
-      
-      <h2 class="footer_action_title f_displaySection">
-        See next project:
-      </h2>
+  <div class="footer_action">
+    <h2 class="footer_action_title f_displaySection">
+      {{ action }}
+    </h2>
+
+    {% if page.layout != "post" %}
+
+        <a href="mailto:{{ site.email }}?subject=feedback" class="footer_action_link f_displaySection f_displaySection-link">
+          {{ site.email }}
+        </a>
+      </div>
+
+      <ul class="footer_social">
+        {% for social in site.data.social %}
+          {% include social.html %}
+        {% endfor %}
+      </ul>
+
+    {% else %}
 
       {% for post in site.posts %}
         {% assign nextproject = page.index | plus: 1 | modulo:site.posts.size %}
@@ -40,11 +35,11 @@
         {% endif %}
       {% endfor %}
 
-    </div>
+      </div>
 
-    <div class="footer_arrow">
-    </div>
+    {% endif %}
 
-  </footer>
+  <div class="footer_arrow">
+  </div>
 
-{% endif %}
+</footer>
