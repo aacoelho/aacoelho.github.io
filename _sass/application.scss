@@ -8,11 +8,11 @@ BREAKPOINTS
   @media (min-width: $size) { @content ; }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
 
 //Basic Values
-@import 'base/variables';
 @import 'base/colors';
+@import 'base/variables';
 @import 'base/fonts';
 
 //mixins
@@ -26,3 +26,8 @@ BREAKPOINTS
 @import 'base/footer';
 @import 'base/buttons';
 @import 'base/shame';
+
+//partials
+@import 'partials/home';
+@import 'partials/about';
+@import 'partials/project';

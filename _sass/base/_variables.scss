@@ -13,8 +13,8 @@
 $b_initial: 0px;
 $b_very_small: 400px;
 $b_small: 600px;
-$b_transition: 750px;
 $b_medium: 900px;
+$b_transition: 1024px;
 $b_large: 1200px;
 $b_very_large: 1500px;
 $b_wider: 1800px;
@@ -32,3 +32,7 @@ $base-font-size: 16px;
 $d_fast_duration: .2s;
 $d_medium_duration: .3s;
 $d_slow_duration: .6s;
+$a_fast_transition: all $d_fast_duration ease-in-out;
+
+/* EFFECTS */
+$e_shadow_hover: 4px 4px 4px $c_shadow;

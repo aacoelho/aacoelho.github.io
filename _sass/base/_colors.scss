@@ -62,38 +62,20 @@ $c_behance: #1769ff;
 $c_whatsapp: #4dc247;
 
 /* WEBSITE COLORS */
-$c_footer: $x_gray_dark;
 $c_background_white: $x_white;
 $c_background: $x_secondary_main; /**/
-$c_background_dark: $x_primary_main; /**/
+$c_background_dark: $x_gray_dark; /**/
 $c_highlight: $x_primary_main;
 
 $c_text_white: $x_white; /**/
 $c_text_light: $x_secondary_main;
 $c_text_dark: $x_gray_dark; /**/
-$c_text_hover: $x_primary_main;
 $c_text_highlight: $x_primary_main; /**/
 
-// $c_border_light: $x_gray_light;
-// $c_border_main: $x_gray_main;
-// $c_border_dark: $x_gray_dark;
-// $c_border_highlight: $x_primary_main;
-// $c_shadow: rgba( $x_black, .5 ); /**/
+$c_link: $x_primary_main;
 
-// $c_nav: $x_primary_main;
-// $c_sidenav: $x_primary_dark;
-// $c_nav_text: $x_white;
-// $c_nav_text_hover: $x_primary_light;
-// $c_nav_underline: $x_white;
-// $c_nav_burger: $x_white;
-// $c_nav_burger_hover: $x_primary_light;
-// $c_burger_menu: $x_primary_dark;
+$c_nav_text: $c_text_dark;
+$c_nav_text_hover: $c_text_highlight;
+$c_nav_text_active: $c_text_highlight;
 
-// $c_side_nav: $x_gray_dark;
-// $c_side_nav_separator: $x_gray_medium;
-// $c_side_nav_text: $x_white;
-// $c_side_nav_text_hover: $x_gray_light;
-
-$c_primary_button: $x_primary_main; /**/
-$c_primary_border: $x_white; /**/
-$c_primary_button_text: $c_text_white; /**/
+$c_shadow: rgba( $x_primary_main, .5 ); /**/

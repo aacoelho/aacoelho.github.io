@@ -3,11 +3,11 @@
   <ul class="menu_list">
     <li>
       {% if page.layout == "home" %}
-        <a class="menu_list_link f_link f_link-active" rel="author" href="{{ "/" | relative_url }}">
+        <a class="menu_list_link f_nav f_nav-active" rel="author" href="{{ "/" | relative_url }}">
           Home
         </a>
       {% else %}
-        <a class="menu_list_link f_link" rel="author" href="{{ "/" | relative_url }}">
+        <a class="menu_list_link f_nav" rel="author" href="{{ "/" | relative_url }}">
           Home
         </a>
       {% endif %}
@@ -15,11 +15,11 @@
 
     <li>
       {% if page.layout == "about" %}
-        <a class="menu_list_link f_link f_link-active" href="/about">
+        <a class="menu_list_link f_nav f_nav-active" href="/about">
           About
         </a>
       {% else %}
-        <a class="menu_list_link f_link" href="/about">
+        <a class="menu_list_link f_nav" href="/about">
           About
         </a>
       {% endif %}

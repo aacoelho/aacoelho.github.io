@@ -3,54 +3,86 @@
  */
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('/assets/fonts/Sporting_Grotesque-Bold.eot');
+    src:    url('/assets/fonts/Sporting_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
+            url('/assets/fonts/Sporting_Grotesque-Bold.woff') format('woff'),
+            url('/assets/fonts/Sporting_Grotesque-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('/assets/fonts/Sporting_Grotesque-Regular.eot');
+    src:    url('/assets/fonts/Sporting_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
+            url('/assets/fonts/Sporting_Grotesque-Regular.woff') format('woff'),
+            url('/assets/fonts/Sporting_Grotesque-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* STYLES */
-$f_extra_light: 200;
+$f_thin: 100;
 $f_light: 300;
 $f_regular: 400;
-$f_semi_bold: 600;
+$f_medium: 500;
 $f_bold: 700;
-$f_extra_bold: 800;
-$f_black: 900;
 
 /* TEXT STYLES */
-@include breakpoint($b_initial)
-{
-  body /**/
+@mixin f_display{
+  font-family: 'Sporting Grotesque_Bold', 'Spectral', serif;
+  line-height: 1.3;
+  text-align: left;
+}
+
+@mixin f_text ($f_weight: $f_regular){
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4;
+  text-align: left;
+  font-weight: $f_weight;
+}
+
+@mixin f_link{
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4;
+  text-align: left;
+  font-weight: $f_bold;
+  color: $c_link;
+  text-decoration: underline !important;
+}
+
+@mixin f_link_animation{
+  transition: $a_fast_transition;
+
+  &:hover{
+    text-shadow: $e_shadow_hover;
+    //transform: translate(-2px, -2px);
+  }
+}
+
+@include breakpoint($b_initial){
+  html
   {
-    font-family: 'Open Sans', sans-serif;
-  	font-weight: $f_regular;
     font-size: 16px;
+  }
+
+  body {
+    font-family: 'Roboto Mono', monospace;
+  	font-weight: $f_regular;
+    font-size: 1rem; //16px
+    line-height: 1.4;
     color: $c_text_dark;
     -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
     -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
+    text-align: left;
   }
 
-  h1 /**/
-  {
-    font-family: 'Muli', sans-serif;
-    font-weight: $f_semi_bold;
-    font-size: 10vw;
-  	color: $c_text_white;
-  }
-
-  p /**/
-  {
-    font-weight: $f_regular;
-    font-size: 14px;
-  	color: $c_text_dark;
-    line-height: 24px;
-  }
-
-  b
-  {
-    font-weight: $f_bold;
-  }
-
-  *:focus
-  {
+  *:focus{
     outline: none;
   }
 
@@ -58,15 +90,135 @@ $f_black: 900;
   a:hover,
   a:visited,
   a:link,
-  a:active
-  {
+  a:active {
     text-decoration: none;
   }
 
-  a:hover
-  {
+  a:hover {
     cursor: pointer;
   }
 
+  .f_displayExtra{
+    @include f_display;
+    font-size: 5rem; //80px
+    color: $c_text_highlight;
+  }
+
+  .f_displaySection{
+    @include f_display;
+    font-size: 1.375rem; //22px
+    color: $c_text_dark;
+
+    &-link{
+      @include f_link;
+      font-size: 1.5rem; //24px
+    }
+  }
+
+  .f_displayGroup{
+    @include f_display;
+    font-size: 1rem; //16px
+    color: $c_text_dark;
+  }
+
+  .f_displayItem{
+    @include f_display;
+    font-size: 0.875rem; //14px
+    color: $c_text_highlight;
+  }
+
+  .f_textExtra{
+    @include f_text ($f_medium);
+    font-size: 1.125rem; //18px
+    color: $c_text_dark;
+  }
+
+  .f_textBig{
+    @include f_text;
+    font-size: 1rem; //16px
+    color: $c_text_dark;
+
+    &-link{
+      @include f_link;
+    }
+  }
+
+  .f_textNormal{
+    @include f_text;
+    font-size: 1rem; //16px
+    color: $c_text_dark;
+
+    &-link{
+      @include f_link;
+    }
+  }
+
+  .f_textSmall{
+    @include f_text;
+    font-size: 0.75rem; //12px
+    color: $c_text_dark;
+  }
+
+  .f_nav{
+    @include f_text;
+    font-size: 0.75rem; //12px
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $c_nav_text;
+
+    &-active{
+      color: $c_nav_text_active;
+      text-decoration: underline !important;
+    }
+  }
+}
+
+@include breakpoint($b_transition){
+
+  .f_displayExtra{
+    font-size: 8.875rem; //142px
+  }
+
+  .f_displaySection{
+    font-size: 2.875rem; //46px
+
+    &-link{
+      font-size: 3rem; //48px
+      @include f_link_animation;
+    }
+  }
+
+  .f_displayGroup{
+    font-size: 1.375rem; //22px
+  }
+
+  .f_textExtra{
+    font-size: 1.5rem; //24px
+    color: $c_text_dark;
+  }
+
+  .f_textBig{
+    font-size: 1.25rem; //20px
+
+    &-link{
+      @include f_link_animation;
+    }
+  }
+
+  .f_textNormal{
+
+    &-link{
+      @include f_link_animation;
+    }
+  }
+
+  .f_nav{
+    @include f_link_animation;
+
+    &:hover{
+      color: $c_nav_text_hover;
+      text-decoration: underline !important;
+    }
+  }
 
 }
