@@ -1,0 +1,29 @@
+@include breakpoint($b_initial) {
+
+  .sectionList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &_item {
+      width: 100%;
+      margin-bottom: calc(2 * #{$d_scale_s});
+
+      &_img {
+        width: 100%;
+        max-width: 1130px;
+      }
+    }
+  }
+}
+
+@include breakpoint($b_transition) {
+
+  .sectionList { //= gallery
+
+    &_item {
+      width: calc(50% - calc(#{$d_scale_m}/2));
+      margin-bottom: $d_scale_m;
+    }
+  }
+}

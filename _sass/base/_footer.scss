@@ -1,12 +1,53 @@
 /* Footer */
 
-@include sticky-footer($s_footer_height, ".container", "footer");
+//@include sticky-footer($s_footer_height, ".container", "footer");
 
-@include breakpoint($b_initial)
-{
+@include breakpoint($b_initial) {
 
-  footer
-  {
-    
+  .footer {
+    display: flex;
+    margin-top: $d_scale_s;
+    flex-wrap: wrap;
+
+    &_action {
+      order: 1;
+      width: 100%;
+
+      &_social {
+        margin-top: calc(2 * #{$d_scale_s});
+
+      }
+
+    }
+
+    &_arrow {
+      margin-left: auto;
+      transform: rotateX(180deg);
+      margin-bottom: $d_scale_s;
+    }
+  }
+}
+
+@include breakpoint($b_transition) {
+
+  .footer {
+    margin-top: calc(2 * #{$d_scale_m});
+    flex-wrap: nowrap;
+
+    &_action {
+      order: 0;
+      width: auto;
+
+      &_social {
+        margin-top: $d_scale_m;
+
+      }
+
+    }
+
+    &_arrow {
+      align-self: flex-end;
+      margin-bottom: 0px;
+    }
   }
 }

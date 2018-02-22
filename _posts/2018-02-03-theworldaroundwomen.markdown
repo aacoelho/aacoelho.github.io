@@ -6,7 +6,7 @@ index: 2
 title:  "The world around women"
 type: "Exhibition design"
 description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-img: ""
+img: "theworldaroundwomen.png"
 description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
 link: "http://hypsoftware.com/pt"
 gallery:

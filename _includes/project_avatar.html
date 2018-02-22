@@ -1,7 +1,8 @@
-<div class="workItem">
+<div class="workItem sectionList_item">
 
   <a href="{{ post.url | relative_url }}" class="workItem_link">
-    <img src="" alt="" class="workItem_img">
+    {% assign img_path = "/assets/avatar" | append: "/" | append: post.img %}
+    <img src="{{ img_path | absolute_url }}" alt="image avatar" class="workItem_img sectionList_item_img">
     <h3 class="workItem_title f_displayGroup">
       {{ post.title | escape }}
     </h3>

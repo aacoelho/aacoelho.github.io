@@ -1,0 +1,22 @@
+@include breakpoint($b_initial) {
+
+  .menu {
+    display: flex;
+    right: $d_scale_s;
+    top: $d_scale_s;
+
+    &_list {
+      margin-left: auto;
+    }
+  }
+}
+
+@include breakpoint($b_transition) {
+
+  .menu {
+    display: inline-block;
+    position: absolute;
+    right: $d_scale_m;
+    top: $d_scale_m;
+  }
+}
