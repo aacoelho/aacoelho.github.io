@@ -16,13 +16,12 @@
         <a href="mailto:{{ site.email }}?subject=feedback" class="footer_action_link f_displaySection f_displaySection-link">
           {{ site.email }}
         </a>
-      </div>
 
-      <ul class="footer_social">
-        {% for social in site.data.social %}
-          {% include social.html %}
-        {% endfor %}
-      </ul>
+        <ul class="footer_action_social linkList">
+          {% for social in site.data.social %}
+            {% include social.html %}
+          {% endfor %}
+        </ul>
 
     {% else %}
 
@@ -35,9 +34,11 @@
         {% endif %}
       {% endfor %}
 
-      </div>
+
 
     {% endif %}
+
+  </div>
 
   <div class="footer_arrow">
     {% include arrow.html %}

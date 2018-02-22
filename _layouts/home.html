@@ -6,7 +6,9 @@ title: "Ângela Coelho"
 <div class="landingSection">
 
   <h1 class="landingSection_title f_displayExtra">
-    {{ page.title }}
+    Ângela
+    <br>
+    Coelho
   </h1>
 
   <p class="landingSection_slogan f_textExtra">
@@ -27,7 +29,7 @@ title: "Ângela Coelho"
       {{ page.list_title | default: "Selected works:" }}
     </h2>
 
-    <div class="selectedWorks_list">
+    <div class="selectedWorks_list sectionList">
       {% assign posts = site.posts | sort: 'index' %}
       {% for post in posts %}
         {% include project_avatar.html %}
