@@ -28,26 +28,34 @@
   }
 }
 
-@include breakpoint($b_transition) {
+@include breakpoint($b_small) {
 
   .footer {
-    margin-top: calc(2 * #{$d_scale_m});
     flex-wrap: nowrap;
 
     &_action {
       order: 0;
       width: auto;
-
-      &_social {
-        margin-top: $d_scale_m;
-
-      }
-
     }
 
     &_arrow {
       align-self: flex-end;
       margin-bottom: 0px;
+    }
+  }
+}
+
+@include breakpoint($b_transition) {
+
+  .footer {
+    margin-top: calc(2 * #{$d_scale_m});
+
+    &_action {
+
+      &_social {
+        margin-top: $d_scale_m;
+      }
+
     }
   }
 }

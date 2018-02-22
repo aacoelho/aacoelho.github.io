@@ -17,9 +17,19 @@
   }
 }
 
+@include breakpoint($b_medium) {
+
+  .sectionList {
+
+    &_item {
+      width: calc(50% - calc(#{$d_scale_s}/2));
+    }
+  }
+}
+
 @include breakpoint($b_transition) {
 
-  .sectionList { //= gallery
+  .sectionList {
 
     &_item {
       width: calc(50% - calc(#{$d_scale_m}/2));
