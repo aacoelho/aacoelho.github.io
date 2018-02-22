@@ -4,6 +4,7 @@
     display: flex;
     right: $d_scale_s;
     top: $d_scale_s;
+    z-index: 1;
 
     &_list {
       margin-left: auto;
