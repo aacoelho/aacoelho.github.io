@@ -32,10 +32,40 @@ body {
 
 @include breakpoint($b_initial) {
 
+  /* Geral */
   body {
     padding: $d_scale_s;
   }
 
+  /* Container */
+  .container {
+
+    &_head {
+      margin-top: $d_scale_s;
+      margin-bottom: $d_scale_s;
+
+      &_title {
+        color: $c_text_highlight;
+      }
+
+    }
+  }
+
+  /* Info Top Page */
+  .info {
+    margin-bottom: calc(2* #{$d_scale_s});
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &_image {
+      margin-top: calc(2* #{$d_scale_s});
+      width: 100%;
+    }
+  }
+
+  /* Link List - Nav/Footer */
   .linkList {
     padding: 0px;
 
@@ -50,6 +80,7 @@ body {
     }
   }
 
+  /* Arrow */
   .arrowSvg {
     height: 70px;
 
@@ -59,12 +90,44 @@ body {
   }
 }
 
+@include breakpoint($b_medium) {
+
+  .info {
+
+    &_description, &_image {
+      margin: 0px;
+      width: calc(50% - calc(#{$d_scale_s}/2));
+    }
+  }
+}
+
 @include breakpoint($b_transition) {
 
+  /* Geral */
   body {
     padding: $d_scale_m;
   }
 
+  /* Container */
+  .container {
+
+    &_head {
+      margin-top: 0px;
+      margin-bottom: $d_scale_m;
+
+    }
+  }
+
+  /* Info Top Page */
+  .info {
+    margin-bottom: calc(2* #{$d_scale_m});
+
+    &_description, &_image {
+      width: calc(50% - calc(#{$d_scale_m}/2));
+    }
+  }
+
+  /* Link List - Nav/Footer */
   .linkList {
 
     li {
@@ -72,6 +135,7 @@ body {
     }
   }
 
+  /* Arrow */
   .arrowSvg {
     height: 105px;
   }

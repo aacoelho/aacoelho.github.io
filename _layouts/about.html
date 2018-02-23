@@ -6,7 +6,8 @@ layout: default
   <p class="info_description f_textBig">
     {{ page.bio }}
   </p>
-  <img src="" alt="" class="info_image">
+  {% assign img_path = "/assets/" | append: page.img %}
+  <img src="{{ img_path | absolute_url }}" alt="profile" class="info_image">
 </div>
 
 <div class="moreInfo">

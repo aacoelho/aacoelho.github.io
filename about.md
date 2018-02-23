@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 tag: about
 bio: Hi! I’m Ângela Coelho, a recently Design and Multimedia graduated student at the University of Coimbra. After five years of studying, I started to work as a web designer and front-end developer, and occasionally graphic designer. Currently, I'm working on a Portuguese startup called <a target="_blank" href="http://hypsoftware.com/" class="f_textBig f_textBig-link">HYP</a>. I like to explore code applied to design solutions, trying to join these two main areas of interest.
+img: profile.png
 experience:
   tag: experience
   title: Experience
