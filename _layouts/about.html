@@ -7,7 +7,7 @@ layout: default
     {{ page.bio }}
   </p>
   {% assign img_path = "/assets/" | append: page.img %}
-  <img src="{{ img_path | absolute_url }}" alt="profile" class="info_image">
+  <img src="{{ img_path | relative_url }}" alt="profile" class="info_image">
 </div>
 
 <div class="moreInfo">
