@@ -20,9 +20,11 @@ layout: default
   {% include info_group.html %}
 
   {% if page.link != nil and page.link != "" %}
-    <a target="_blank" class="moreInfo_group moreInfo_group-link f_textNormal f_textNormal-link" href="{{ page.link }}">
-      Visit Website
-    </a>
+    <div class="moreInfo_group moreInfo_group-link">
+      <a target="_blank" class="moreInfo_group moreInfo_group-link f_textNormal f_textNormal-link" href="{{ page.link }}">
+        Visit Website
+      </a>
+    </div>
   {% endif %}
 
   {% if page.references %}

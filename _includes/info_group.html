@@ -9,9 +9,11 @@
   {% for item in group.item %}
     <div class="moreInfo_item">
 
+      {% if item.subtitle != nil and item.subtitle != "" %}
       <h4 class="moreInfo_item_subtitle f_displayItem">
         {{ item.subtitle }}
       </h4>
+      {% endif %}
 
       <ul class="moreInfo_item_list">
         {% for text in item.text %}
