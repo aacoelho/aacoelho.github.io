@@ -7,6 +7,7 @@
     max-height: 1024px;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-end;
 
     &_top {
       transform-origin: 100% 0%;
@@ -26,7 +27,7 @@
       align-self: flex-end;
     }
 
-    &_arrow {
+    &_corner {
       align-self: flex-end;
       margin-left: auto;
     }
@@ -57,6 +58,7 @@
 @include breakpoint($b_small_medium) {
 
   .landingSection {
+    align-content: inherit;
 
     &_top {
       width: 100%;

@@ -1,0 +1,66 @@
+@include breakpoint($b_initial) {
+
+  .container-404 {
+    height: 100%;
+
+    .landingSection {
+      margin-bottom: 0px;
+      max-height: none;
+      height: 100%;
+
+      &_top {
+
+        &_title {
+          color: $c_text_light;
+        }
+      }
+
+      &_slogan {
+        color: $c_text_light;
+        width: 100%;
+      }
+
+      &_corner {
+        margin-top: calc(2 * #{$d_scale_s});
+        margin-left: 0px;
+      }
+
+      &_link {
+        color: $c_text_light;
+      }
+    }
+
+  }
+}
+
+@include breakpoint($b_small_medium) {
+
+  .container-404 {
+    .landingSection {
+
+      &_slogan {
+        width: auto;
+      }
+
+      &_corner {
+        margin-top: 0px;
+        margin-left: auto;
+      }
+    }
+
+  }
+}
+
+@include breakpoint($b_transition) {
+
+  .container-404 {
+
+    .landingSection {
+
+      &_link {
+        @include f_link_animation($e_shadow_404);
+      }
+    }
+
+  }
+}
