@@ -51,20 +51,18 @@ tools:
   tag: tools
   title: Tools
   item:
-    - subtitle: Software
+    - subtitle: ""
       text:
         - line: Sketch
+        - line: Processing
         - line: Adobe Indesign
         - line: Adobe Illustrator
         - line: Adobe Photoshop
-        - line: Max/MSP
-        - line: Adobe After Effects
-    - subtitle: Technologies
-      text:
-        - line: Processing
         - line: HTML
         - line: CSS/SASS
         - line: Javascript/jQuery
+        - line: Adobe After Effects
+        - line: Max/MSP
         - line: Ruby on Rails
 website:
   tag: website
