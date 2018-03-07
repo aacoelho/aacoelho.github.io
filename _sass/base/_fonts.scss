@@ -100,7 +100,7 @@ $f_bold: 700;
 
   .f_displayExtra{
     @include f_display;
-    font-size: 5rem; //80px
+    font-size: 3.5rem; //80px
     color: $c_text_highlight;
   }
 
@@ -170,6 +170,12 @@ $f_bold: 700;
       color: $c_nav_text_active;
       text-decoration: underline !important;
     }
+  }
+}
+
+@include breakpoint($b_small_medium){
+  .f_displayExtra{
+    font-size: 5rem; //80px
   }
 }
 
