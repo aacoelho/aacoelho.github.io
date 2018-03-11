@@ -2,7 +2,7 @@
 
   .landingSection {
     $margin: calc(2 * #{$d_scale_s});
-    margin-bottom: calc(4 * #{$d_scale_s});
+    margin-bottom: calc(2 * #{$d_scale_s});
     height: calc(100vh - calc(#{$margin} + 32px));
     max-height: 1024px;
     display: flex;
@@ -40,6 +40,7 @@
   .selectedWorks {
     display: flex;
     flex-wrap: wrap;
+    padding-top: calc(2 * #{$d_scale_s});
 
     &_title {
       width: 100%;
@@ -88,12 +89,13 @@
 
   .landingSection {
     $margin: calc(2 * #{$d_scale_m});
-    margin-bottom: calc(4 * #{$d_scale_m});
+    margin-bottom: calc(2 * #{$d_scale_m});
     height: calc(100vh - #{$margin});
     width: 100%;
   }
 
   .selectedWorks {
+    padding-top: calc(2 * #{$d_scale_m});
 
     &_title {
       margin-bottom: $d_scale_m;

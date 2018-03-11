@@ -83,6 +83,7 @@ body {
   /* Arrow */
   .arrowSvg {
     height: 70px;
+    cursor: pointer;
 
     &_polygon {
       fill: $c_text_highlight;
@@ -138,5 +139,11 @@ body {
   /* Arrow */
   .arrowSvg {
     height: 105px;
+    transition: $a_fast_transition;
+
+    &:hover{
+      filter: drop-shadow($e_shadow_hover);
+      transform: translate(-2px, -2px);
+    }
   }
 }

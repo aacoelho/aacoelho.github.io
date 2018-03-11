@@ -38,6 +38,10 @@
 @mixin work_animation{
   @include f_link_animation;
 
+  .workItem_img {
+    transition: $a_fast_transition;
+  }
+
   @include breakpoint($b_transition){
     &:hover {
       .workItem_img
