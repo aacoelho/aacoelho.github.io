@@ -50,6 +50,8 @@
 
       .workItem {
 
+        @include work_animation;
+
         &_title {
           margin-top: calc(#{$d_scale_s}/2);
           color: $c_text_highlight;

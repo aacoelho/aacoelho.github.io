@@ -21,3 +21,30 @@
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
+
+@mixin f_link_animation ($shadow: $e_shadow_hover){
+  transition: $a_fast_transition;
+  display: inline-block;
+
+  @include breakpoint($b_transition){
+    &:hover {
+      text-shadow: $shadow;
+      transform: translate(-2px, -2px);
+    }
+  }
+
+}
+
+@mixin work_animation{
+  @include f_link_animation;
+
+  @include breakpoint($b_transition){
+    &:hover {
+      .workItem_img
+      {
+        box-shadow: $e_shadow_hover;
+      }
+    }
+  }
+
+}

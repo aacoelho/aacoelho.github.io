@@ -27,6 +27,7 @@
 
       &_link {
         color: $c_text_light;
+        @include f_link_animation($e_shadow_404);
       }
     }
 
@@ -45,20 +46,6 @@
       &_corner {
         margin-top: 0px;
         margin-left: auto;
-      }
-    }
-
-  }
-}
-
-@include breakpoint($b_transition) {
-
-  .container-404 {
-
-    .landingSection {
-
-      &_link {
-        @include f_link_animation($e_shadow_404);
       }
     }
 

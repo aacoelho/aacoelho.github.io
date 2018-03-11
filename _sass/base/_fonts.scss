@@ -54,15 +54,8 @@ $f_bold: 700;
   font-weight: $f_bold;
   color: $c_link;
   text-decoration: underline !important;
-}
 
-@mixin f_link_animation ($shadow: $e_shadow_hover){
-  transition: $a_fast_transition;
-
-  &:hover{
-    text-shadow: $shadow;
-    //transform: translate(-2px, -2px);
-  }
+  @include f_link_animation;
 }
 
 @include breakpoint($b_initial){
@@ -165,6 +158,7 @@ $f_bold: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: $c_nav_text;
+    @include f_link_animation;
 
     &-active{
       color: $c_nav_text_active;
@@ -190,7 +184,6 @@ $f_bold: 700;
 
     &-link{
       font-size: 3rem; //48px
-      @include f_link_animation;
     }
   }
 
@@ -205,21 +198,9 @@ $f_bold: 700;
 
   .f_textBig{
     font-size: 1.25rem; //20px
-
-    &-link{
-      @include f_link_animation;
-    }
-  }
-
-  .f_textNormal{
-
-    &-link{
-      @include f_link_animation;
-    }
   }
 
   .f_nav{
-    @include f_link_animation;
 
     &:hover{
       color: $c_nav_text_hover;

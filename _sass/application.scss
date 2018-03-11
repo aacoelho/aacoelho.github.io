@@ -13,14 +13,14 @@ BREAKPOINTS
 //Basic Values
 @import 'base/colors';
 @import 'base/variables';
-@import 'base/fonts';
 
 //mixins
 @import 'mixins/sticky_footer';
-@import 'mixins/small_mixins';
 @import 'mixins/centerer';
+@import 'mixins/small_mixins';
 
 //styleguide
+@import 'base/fonts';
 @import 'base/styleguide';
 @import 'base/navigation';
 @import 'base/footer';
