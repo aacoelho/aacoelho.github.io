@@ -12,11 +12,11 @@
         {% if my_page.title %}
           <li>
             {% if my_page.title == page.title %}
-              <a class="menu_list_link f_nav f_nav-active new2" href="{{ my_page.url | relative_url }}">
+              <a class="menu_list_link f_nav f_nav-active new2 link_transition" data-type="page-transition" href="{{ my_page.url | relative_url }}">
                 {{ my_page.title | escape }}
               </a>
             {% else %}
-              <a class="menu_list_link f_nav" href="{{ my_page.url | relative_url }}">
+              <a class="menu_list_link f_nav link_transition" data-type="page-transition" href="{{ my_page.url | relative_url }}">
                 {{ my_page.title | escape }}
               </a>
             {% endif %}

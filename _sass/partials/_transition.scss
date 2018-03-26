@@ -1,0 +1,80 @@
+.loading{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: $c_highlight;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  @include centerer_flexbox;
+  display: none;
+
+  animation-duration: $d_medium_duration;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+
+  &_text {
+    color: $c_text_light;
+    opacity: 0;
+    // transition: $a_fast_transition;
+    transition: all $d_fast_duration ease-in-out;
+
+    &-show {
+      opacity: 1;
+    }
+  }
+
+  &.loading-in
+  {
+    animation-name: transition_in;
+  }
+
+  &.loading-show
+  {
+    display: flex;
+  }
+
+  &.loading-out
+  {
+    animation-name: transition_out;
+
+  }
+}
+
+@keyframes transition_in {
+  from {
+    transform: translateY(100%);
+    // opacity: 0;
+    //top:100vh;
+    display: flex;
+  }
+  to {
+    transform: translateY(0%);
+    //opacity: 1;
+    //top: 0vh;
+    display: flex;
+
+  }
+}
+
+@keyframes transition_out {
+  from {
+    transform: translateY(0%);
+    // opacity: 0;
+    display: flex;
+  }
+  to {
+    transform: translateY(-100%);
+    //opacity: 1;
+    display: none;
+  }
+}
+
+.fade-in{
+  transition: opacity $d_slow_duration ease-in-out;
+  opacity: 1 !important;
+}
+.fade-out{
+  transition: opacity $d_slow_duration ease-in-out;
+  opacity: 0 !important;
+}

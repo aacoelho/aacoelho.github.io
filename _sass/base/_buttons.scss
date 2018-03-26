@@ -22,6 +22,7 @@
   color: $m_text;
   border-radius: $m_radius;
   cursor: pointer;
+  // cursor: url(cursor_pointer.png), pointer;
   @extend p.button;
 
   &:focus

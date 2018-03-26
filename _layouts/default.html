@@ -5,11 +5,12 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="main">
+      {% include header.html %}
 
-    <section class="container container-{{ page.tag }}">
+      <section class="container container-{{ page.tag }}">
 
-      {% if page.layout != "home" %}
+        {% if page.layout != "home" %}
         <div class="container_head">
 
           <h1 class="container_head_title f_displaySection">
@@ -17,19 +18,32 @@
           </h1>
 
           {% if page.type != nil and page.type != "" %}
-            <p class="container_head_type f_textExtra">
-              {{ page.type }}
-            </p>
+          <p class="container_head_type f_textExtra">
+            {{ page.type }}
+          </p>
           {% endif %}
 
         </div>
-      {% endif %}
+        {% endif %}
 
-      {{ content }}
-    </section>
+        {{ content }}
+      </section>
 
-    {% include footer.html %}
+
+      {% include footer.html %}
+    </div>
+
+    <div class="loading">
+      <p class="loading_text f_displaySection">Loading ...</p>
+    </div>
 
   </body>
 
 </html>
+
+<script type="text/javascript">
+  $(".loading").addClass("loading-show");
+  $(".loading_text").css("opacity", "1");
+  $("body").css("overflow", "hidden");
+  $(".main").css("opacity","0");
+</script>

@@ -24,6 +24,7 @@ html {
 body {
   min-height: 100%;
   background-color: $c_background;
+  //cursor: url(cursor-10.png), pointer;
 }
 
 .container {
@@ -84,6 +85,7 @@ body {
   .arrowSvg {
     height: 70px;
     cursor: pointer;
+    //cursor: url(cursor-07.png), pointer;
 
     &_polygon {
       fill: $c_text_highlight;
