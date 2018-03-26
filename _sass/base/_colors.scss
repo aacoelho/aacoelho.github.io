@@ -51,15 +51,10 @@ $x_black: #000000;
 $c_facebook: #3B5998;
 $c_twitter: #55acee;
 $c_instagram: #8a3ab9;
-$c_youtube: #bb0000;
 $c_pinterest: #cb2027;
-$c_google_plus: #dd4b39;
 $c_linkedin: #007bb5;
 $c_vimeo: #1ab7ea;
-$c_spotify: #00e461;
-$c_dropbox: #007ee5;
 $c_behance: #1769ff;
-$c_whatsapp: #4dc247;
 
 /* WEBSITE COLORS */
 $c_background_white: $x_white;
@@ -68,15 +63,15 @@ $c_background_dark: $x_gray_dark; /**/
 $c_highlight: $x_primary_main;
 
 $c_text_white: $x_white; /**/
-$c_text_light: $x_secondary_main;
+$c_text_light: $x_secondary_main; /**/
 $c_text_dark: $x_gray_dark; /**/
 $c_text_highlight: $x_primary_main; /**/
 
-$c_link: $x_primary_main;
+$c_link: $x_primary_main; /**/
 
-$c_nav_text: $c_text_dark;
-$c_nav_text_hover: $c_text_highlight;
-$c_nav_text_active: $c_text_highlight;
+$c_nav_text: $c_text_dark; /**/
+$c_nav_text_hover: $c_text_highlight; /**/
+$c_nav_text_active: $c_text_highlight; /**/
 
 $c_shadow_dark: rgba( $x_primary_main, .5 ); /**/
 $c_shadow_light: rgba( $x_secondary_main, .5 ); /**/

@@ -8,15 +8,25 @@ BREAKPOINTS
   @media (min-width: $size) { @content ; }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Spectral:700');
+
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('/assets/fonts/Sporting_Grotesque-Bold.eot');
+    src:    url('/assets/fonts/Sporting_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
+            url('/assets/fonts/Sporting_Grotesque-Bold.woff') format('woff'),
+            url('/assets/fonts/Sporting_Grotesque-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 //Basic Values
 @import 'base/colors';
 @import 'base/variables';
 
 //mixins
-@import 'mixins/sticky_footer';
-@import 'mixins/centerer';
 @import 'mixins/small_mixins';
 
 //styleguide
@@ -24,13 +34,12 @@ BREAKPOINTS
 @import 'base/styleguide';
 @import 'base/navigation';
 @import 'base/footer';
-@import 'base/buttons';
 @import 'base/shame';
 
 //partials
 @import 'partials/home';
-@import 'partials/about';
-@import 'partials/project';
+//@import 'partials/about';
+//@import 'partials/project';
 @import 'partials/list_item';
 @import 'partials/more_info';
 @import 'partials/transition';

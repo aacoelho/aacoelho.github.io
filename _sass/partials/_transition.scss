@@ -8,7 +8,6 @@
   left: 0;
   @include centerer_flexbox;
   display: none;
-  pointer-events: none;
 
   animation-duration: $d_medium_duration;
   animation-fill-mode: both;

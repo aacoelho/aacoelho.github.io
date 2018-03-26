@@ -1,25 +1,21 @@
-@mixin truncate($truncation-boundary)
-{
-  max-width: $truncation-boundary;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+@mixin centerer_flexbox($horizontal: true, $vertical: true){
+  display: flex;
+  flex-direction: column;
 
-@mixin line-clamp($lines)
-{
-  display: -webkit-box;
-  -webkit-line-clamp: $lines;
-  -webkit-box-orient: vertical;
-}
+  @if ($horizontal and $vertical)
+  {
+    justify-content: center;
+    align-items: center;
+  }
+  @else if ($horizontal)
+  {
+    align-items: center;
 
-@mixin underline($color)
-{
-  border-bottom: $s_border solid $color;
-}
-
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
+  }
+  @else if ($vertical)
+  {
+    justify-content: center;
+  }
 }
 
 @mixin f_link_animation ($shadow: $e_shadow_hover){
