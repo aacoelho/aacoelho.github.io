@@ -2,20 +2,16 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 7
-title:  "Periferia"
-type: "Typography"
-description: Periferia is a modular typeface made from shapes collected in Choupal National Forest, located in the suburbs of Coimbra, Portugal. Choupal, once the theme of songs and poems, is now a forgotten place in the city and its existence threatened. This typeface pays tribute to this location and to all the other abandoned areas in the suburbs of Coimbra. The development of the typeface was based in four modules taken from the different shapes of the objects present in the forest. The rearrangement of these modules produces each one of the typeface characters.
+index: 8
+title:  "Até Já"
+type: "Graphic Design"
+description: Poster created for the 6th college theatre exhibition <i>Até já!</i>, organised by the theatre students from the Coimbra Education School in Portugal. The main idea for this poster was to reflect the participation role of each student in this project. The exhibition consists in the presentation of a series of small pieces and exercises done by each student, who had the role to create and direct a small piece and where the fellow colleagues appear as actors. The main idea was for the poster reflect the participation of the students to create this exhibition. In this way were used photographic pieces of each student to create a fictional character that is the main object of the poster.
 img: "periferia.png"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: "Photographic pieces of each student."
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: "Final poster."
 details:
   tag: details
   title: Details
@@ -23,11 +19,10 @@ details:
     - subtitle: Role
       text:
         - line: Photography Edition
-        - line: Typeface Development
         - line: Graphic Design
     - subtitle: Technologies
       text:
-        - line: Adobe Illustrator
+        - line: Adobe Photoshop
         - line: Adobe Indesign
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

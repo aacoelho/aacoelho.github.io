@@ -2,24 +2,25 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 0
-title:  "HYP"
-type: "UX/UI design + development"
-img: "hyp.png"
+index: 6
+title:  "Eye Clinic"
+type: "Typography"
+description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+img: "periferia.png"
 description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
 link: "http://hypsoftware.com/pt"
 gallery:
-  - img: "img_01.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_02.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_03.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_04.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_05.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_06.png"
+  - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
 details:
   tag: details
@@ -39,7 +40,7 @@ details:
         - line: Ruby on Rails
 references:
   tag: references
-  title: Additional Information
+  title: Additional information
   item:
     - text:
         - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
@@ -50,7 +51,6 @@ references:
     - text:
         - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
       link: https://vimeo.com/album/4949242
-
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

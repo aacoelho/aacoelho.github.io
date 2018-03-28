@@ -5,52 +5,67 @@ permalink: /:title
 index: 1
 title:  "Poetry as sound"
 type: "Sonification"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+description: "Master thesis project inserted in the field of Musical Sonification that consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds.
+The application presents two main features: the sound that gives the information of the poem and a visual component that works as a label. The main goal was to create a new approach to analyze poetry through sound that reflects its structure, story and rhyme characteristics.
+The development of this project implied the research of the Sonification field, the analysis of the poem and the construction of the application, from the graphical approach to the programing development. It was also created a physical artifact that documented the process and results obtained with the research."
 img: "poetryassound.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
 link: ""
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: "Shapes used to represent each type of sonified information."
+  - img: ""
+    caption: "Application structure."
   - img: ""
     caption: "Landing Section animation, that explores the concept of the identity."
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: "Physical artifact."
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
+  - img: ""
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
-        - line: UX/UI Design
-        - line: Front-end Development
+        - line: Concept Creation
+        - line: Research
+        - line: Dataset Construction
+        - line: Visual Graphics
+        - line: Programming
+        - line: Editorial Design
     - subtitle: Technologies
       text:
-        - line: Sketch
-        - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
+        - line: Processing
+        - line: Max/MSP
+        - line: Ableton Live
+        - line: Adobe Indesign
+        - line: Adobe Illustrator
 references:
   tag: references
   title: Additional information
   item:
     - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
-      link: https://vimeo.com/album/4949242
+        - line: "RTP: As Horas Extraordinárias"
+      link: https://www.rtp.pt/play/p3140/e332041/as-horas-extraordinarias
     - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
-      link: https://vimeo.com/album/4949242
+        - line: Soldado, C. (2018). Os Lusíadas têm uma música interior – e o Twitter também. <i>Ípsilon</i>.
+      link: https://www.publico.pt/2018/02/05/culturaipsilon/noticia/a-que-soam-os-lusiadas-quando-sao-traduzidos-para-musica-1801951
+    - text:
+        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
+      link: https://www.researchgate.net/publication/324054817_A_Portuguese_Epopee_Seen_Through_Sound
+    - text:
+        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
+      link: https://www.researchgate.net/publication/305281951_A_Musical_Sonification_of_the_Portuguese_Epopee
     - text:
         - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
       link: https://vimeo.com/album/4949242
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -2,19 +2,24 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 7
-title:  "Periferia"
-type: "Typography"
-description: Periferia is a modular typeface made from shapes collected in Choupal National Forest, located in the suburbs of Coimbra, Portugal. Choupal, once the theme of songs and poems, is now a forgotten place in the city and its existence threatened. This typeface pays tribute to this location and to all the other abandoned areas in the suburbs of Coimbra. The development of the typeface was based in four modules taken from the different shapes of the objects present in the forest. The rearrangement of these modules produces each one of the typeface characters.
-img: "periferia.png"
+index: 0
+title:  "HYP"
+type: "UX/UI design + development"
+img: "hyp.png"
+description: Redesign of the HYP website, a company who develops projects in the areas of graphic design, UX/UI design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. It was created a new approach of the application of the brand already existent, with the goal to create a more light and interactive experience between the user and the brand. The website starts with a summary presentation of the company, its team, methodologies and projects. Each section has a single page where its explained with further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
+link: "http://hypsoftware.com/pt"
 gallery:
-  - img: ""
+  - img: "img_01.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_02.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_03.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_04.png"
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: "img_05.png"
+    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: "img_06.png"
     caption: "Landing Section animation, that explores the concept of the identity."
 details:
   tag: details
@@ -23,12 +28,18 @@ details:
     - subtitle: Role
       text:
         - line: Photography Edition
-        - line: Typeface Development
-        - line: Graphic Design
+        - line: UX/UI Design
+        - line: Front-end Development
     - subtitle: Technologies
       text:
+        - line: Sketch
+        - line: Adobe Photoshop
         - line: Adobe Illustrator
-        - line: Adobe Indesign
+        - line: HTML
+        - line: SASS
+        - line: jQuery
+        - line: Ruby on Rails
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

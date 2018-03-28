@@ -2,25 +2,26 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 4
-title:  "The world around women"
-type: "Exhibition design"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-img: "theworldaroundwomen.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+index: 100
+title:  "HYP"
+type: "UX/UI design + development"
+img: "hyp.png"
+description: Redesign of the HYP website, a company who develops projects in the areas of graphic design, UX/UI design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit.
+It was created a new approach of the application of the brand already existent, with the goal to create a more light and interactive experience between the user and the brand.
+The website starts with a summary presentation of the company, its team, methodologies and projects. Each section has a single page where its explained with further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
 link: "http://hypsoftware.com/pt"
 gallery:
-  - img: ""
+  - img: "img_01.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_02.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_03.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_04.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_05.png"
     caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+  - img: "img_06.png"
     caption: "Landing Section animation, that explores the concept of the identity."
 details:
   tag: details
@@ -34,10 +35,26 @@ details:
     - subtitle: Technologies
       text:
         - line: Sketch
+        - line: Adobe Photoshop
+        - line: Adobe Illustrator
         - line: HTML
         - line: SASS
         - line: jQuery
         - line: Ruby on Rails
+references:
+  tag: references
+  title: Additional Information
+  item:
+    - text:
+        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
+      link: https://vimeo.com/album/4949242
+    - text:
+        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
+      link: https://vimeo.com/album/4949242
+    - text:
+        - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
+      link: https://vimeo.com/album/4949242
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

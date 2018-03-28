@@ -2,56 +2,49 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 3
+index: 2
 title:  "ENED"
 type: "Graphic design"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+description: Creation of the image of the 5th Design Students National Meeting in Coimbra, Portugal. This meeting joins design students of different fields during five days full of activities that overview the main areas of interest in design. Since this is an event that gathers many fields and subjects related to design, the idea was to overcome these differences by creating a identity that connected all the areas of design. The identity, which was made by a group of students and recently graduated students, implied the construction of graphic material, merchandising, social media and promotional content.
 img: "ened.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-link: "http://hypsoftware.com/pt"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
-        - line: UX/UI Design
-        - line: Front-end Development
+        - line: Concept Creation
+        - line: Graphic Design
+        - line: Editorial Design
+        - line: Video Edition
     - subtitle: Technologies
       text:
-        - line: Sketch
-        - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
+        - line: Adobe Indesign
+        - line: Adobe Illustrator
+        - line: Adobe Photoshop
+        - line: Adobe Premiere
 references:
   tag: references
   title: Additional information
   item:
     - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
-      link: ""
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
-      link: https://vimeo.com/album/4949242
+        - line: ENED 2016 Website
+      link: "https://2016.ened.pt"
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
