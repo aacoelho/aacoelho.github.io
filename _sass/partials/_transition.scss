@@ -7,7 +7,9 @@
   top: 0;
   left: 0;
   @include centerer_flexbox;
-  display: none;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
 
   animation-duration: $d_medium_duration;
   animation-fill-mode: both;
@@ -31,7 +33,8 @@
 
   &.loading-show
   {
-    display: flex;
+    visibility: visible;
+    opacity: 1;
   }
 
   &.loading-out
@@ -44,29 +47,18 @@
 @keyframes transition_in {
   from {
     transform: translateY(100%);
-    // opacity: 0;
-    //top:100vh;
-    display: flex;
   }
   to {
     transform: translateY(0%);
-    //opacity: 1;
-    //top: 0vh;
-    display: flex;
-
   }
 }
 
 @keyframes transition_out {
   from {
     transform: translateY(0%);
-    // opacity: 0;
-    display: flex;
   }
   to {
     transform: translateY(-100%);
-    //opacity: 1;
-    display: none;
   }
 }
 

@@ -16,6 +16,7 @@ $(document).ready(function(){
 
     $(".main").addClass("fade-out");
     $(".loading").removeClass("loading-out");
+    $(".loading").addClass("loading-show");
     $(".loading").addClass("loading-in");
     setTimeout(newpage, 300);
 
@@ -35,8 +36,13 @@ $(window).on('load', function () {
   $(".main").addClass("fade-in");
   $(".loading").addClass("loading-out");
   $("body").css("overflow", "visible");
+  setTimeout(hideTransition, 300);
   //$(".loading").removeClass("loading-show");
 });
+
+function hideTransition(){
+  $(".loading").removeClass("loading-show");
+}
 
 function newpage() {
   window.location = newLocation;
