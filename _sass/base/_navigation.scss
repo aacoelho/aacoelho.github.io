@@ -2,8 +2,10 @@
 
   .menu {
     display: flex;
-    right: $d_scale_s;
-    top: $d_scale_s;
+    // right: $d_scale_s;
+    // top: $d_scale_s;
+    right: 0px;
+    top: 0px;
     z-index: 1;
 
     &_list {
@@ -17,7 +19,7 @@
   .menu {
     display: inline-block;
     position: absolute;
-    right: $d_scale_m;
-    top: $d_scale_m;
+    // right: $d_scale_m;
+    // top: $d_scale_m;
   }
 }

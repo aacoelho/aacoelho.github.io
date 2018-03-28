@@ -17,6 +17,7 @@
 }
 
 html {
+  background: $c_highlight;
   box-sizing: border-box;
   width: 100%;
 }
@@ -24,6 +25,8 @@ html {
 body {
   min-height: 100%;
   background-color: $c_background;
+  /* Background: */
+  background-image: linear-gradient(to bottom, rgba($c_highlight, 0.3) -2%, $c_background 2%, $c_background 98%, rgba($c_highlight, 0.7) 101%);
   //cursor: url(cursor-10.png), pointer;
 }
 
@@ -36,6 +39,21 @@ body {
   /* Geral */
   body {
     padding: $d_scale_s;
+  }
+
+  //Skew Effect
+  .main {
+    transition: transform $d_very_slow_duration;
+    will-change: transform;
+
+    img{
+      transition: $a_fast_transition;
+
+      &.shadow{
+
+        box-shadow: $e_shadow_hover;
+      }
+    }
   }
 
   /* Container */
