@@ -2,55 +2,35 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 5
+index: 3
 title:  "Polis"
 type: "Branding + UX/UI design"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+description: Polis is an application that intends to engage the citizens to participate in the decisions of his country, city, company, school or any other institution he belongs to, by creating a voting system that allows the user to give is opinion and to see the general public decision. This application makes possible for the user to approve and disapprove ideas that can be added to the application by a another citizen, a deputy or another entity, which makes possible to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UX/UI design of the application screens.
 img: "polis.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-link: "http://hypsoftware.com/pt"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
+        - line: Brand Creation
         - line: UX/UI Design
-        - line: Front-end Development
     - subtitle: Technologies
       text:
         - line: Sketch
-        - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
-references:
-  tag: references
-  title: Additional information
-  item:
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
-      link: https://vimeo.com/album/4949242
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
