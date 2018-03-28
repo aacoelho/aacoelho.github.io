@@ -2,10 +2,10 @@
 
   <a href="{{ post.url | relative_url }}" class="workItem_link link_transition">
     {% assign img_path = "/assets/avatar/" | append: post.img %}
-    <img src="{{ img_path | absolute_url }}" alt="image avatar" class="workItem_img sectionList_item_img">
     <h3 class="workItem_title f_displayGroup">
       {{ post.title | escape }}
     </h3>
+    <img src="{{ img_path | absolute_url }}" alt="image avatar" class="workItem_img sectionList_item_img">
     <p class="workItem_type f_textExtra">
       {{ post.type }}
     </p>
