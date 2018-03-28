@@ -1,5 +1,11 @@
+//Skew Effect Variables
+const section = $(".main");
+let currentPixel = $(window).scrollTop();
+const range = 12;
+
 $(document).ready(function(){
 
+  //Arrows
   $(".landingSection_corner .arrowSvg").on( "click", function() {
     goTo(".selectedWorks");
   });
@@ -8,22 +14,40 @@ $(document).ready(function(){
     goTo("body");
   });
 
+  //Transition Out
   $(".link_transition").click(function(e){
-    $("body").css("overflow", "hidden");
-
     e.preventDefault();
     newLocation = this.href;
 
+    $("body").css("overflow", "hidden");
     $(".main").addClass("fade-out");
-    $(".loading").removeClass("loading-out");
-    $(".loading").addClass("loading-show");
-    $(".loading").addClass("loading-in");
-    setTimeout(newpage, 300);
+    $(".loading").removeClass("loading-out").addClass("loading-show").addClass("loading-in");
+
+    setTimeout(function(){
+      $(location).attr('href', newLocation);
+    }, 300);
 
   });
 
+  looper();
+
 });
 
+
+//Transition In
+$(window).on('load', function () {
+
+  $(".loading_text").css("opacity", "0");
+  $(".loading").addClass("loading-out");
+  $(".main").addClass("fade-in");
+  $("body").css("overflow", "visible");
+
+  setTimeout(function(){
+    $(".loading").removeClass("loading-show");
+  }, 300);
+});
+
+//Scroll to Anchor
 function goTo(target) {
   $("html, body").animate({
       scrollTop: $(target).offset().top
@@ -31,19 +55,29 @@ function goTo(target) {
   return false;
 }
 
-$(window).on('load', function () {
-  $(".loading_text").css("opacity", "0");
-  $(".main").addClass("fade-in");
-  $(".loading").addClass("loading-out");
-  $("body").css("overflow", "visible");
-  setTimeout(hideTransition, 300);
-  //$(".loading").removeClass("loading-show");
-});
+//Skew Effect
+const looper = function () {
+  const newPixel = $(window).scrollTop();
+  const diff = newPixel - currentPixel;
+  let speed = diff * 0.2;
 
-function hideTransition(){
-  $(".loading").removeClass("loading-show");
-}
+  if(speed > range){
+    speed = range;
+  }
+  else if (speed < -range) {
+    speed = -range;
+  }
 
-function newpage() {
-  window.location = newLocation;
+  if(speed != 0){
+    $(".main img").addClass("shadow");
+  }
+  else {
+    $(".main img").removeClass("shadow");
+  }
+
+  section.css("transform", "skewY(" + speed + "deg)");
+
+  currentPixel = newPixel;
+
+  requestAnimationFrame(looper);
 }

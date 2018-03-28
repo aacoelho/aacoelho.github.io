@@ -8,7 +8,7 @@
     <div class="main">
       {% include header.html %}
 
-      <section class="container container-{{ page.tag }}">
+      <section class="container container-{{ page.tag }} section-skew">
 
         {% if page.layout != "home" %}
         <div class="container_head">
@@ -42,8 +42,11 @@
 </html>
 
 <script type="text/javascript">
+
+  //Transition 
   $(".loading").addClass("loading-show");
   $(".loading_text").css("opacity", "1");
   $("body").css("overflow", "hidden");
   $(".main").css("opacity","0");
+
 </script>

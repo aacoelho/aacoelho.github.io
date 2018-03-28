@@ -41,6 +41,21 @@ body {
     padding: $d_scale_s;
   }
 
+  //Skew Effect
+  .main {
+    transition: transform $d_very_slow_duration;
+    will-change: transform;
+
+    img{
+      transition: $a_fast_transition;
+
+      &.shadow{
+
+        box-shadow: $e_shadow_hover;
+      }
+    }
+  }
+
   /* Container */
   .container {
 
