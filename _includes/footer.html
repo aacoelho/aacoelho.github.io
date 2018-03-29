@@ -24,9 +24,8 @@
         </ul>
 
     {% else %}
-
+      {% assign nextproject = page.index | plus: 1 | modulo:site.posts.size %}
       {% for post in site.posts %}
-        {% assign nextproject = page.index | plus: 1 | modulo:site.posts.size %}
         {% if post.index == nextproject %}
           <a href="{{ post.url | relative_url }}" class="footer_action_link link_transition f_displaySection f_displaySection-link">
             {{ post.title }}

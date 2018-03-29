@@ -27,7 +27,7 @@ body {
   background-color: $c_background;
   /* Background: */
   background-image: linear-gradient(to bottom, rgba($c_highlight, 0.3) -2%, $c_background 2%, $c_background 98%, rgba($c_highlight, 0.7) 101%);
-  //cursor: url(cursor-10.png), pointer;
+  cursor: url(cursor_default.png), auto;
 }
 
 .container {
@@ -45,6 +45,7 @@ body {
   .main {
     transition: transform $d_very_slow_duration;
     will-change: transform;
+    height: 100%;
 
     img{
       transition: $a_fast_transition;
@@ -102,8 +103,8 @@ body {
   /* Arrow */
   .arrowSvg {
     height: 70px;
-    cursor: pointer;
-    //cursor: url(cursor-07.png), pointer;
+    //cursor: pointer;
+    cursor: url(cursor_pointer.png), pointer;
 
     &_polygon {
       fill: $c_text_highlight;

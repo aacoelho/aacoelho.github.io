@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 2
+index: 1
 title:  "ENED"
 type: "Graphic design"
 description: Creation of the image of the 5th Design Students National Meeting in Coimbra, Portugal. This meeting joins design students of different fields during five days full of activities that overview the main areas of interest in design. Since this is an event that gathers many fields and subjects related to design, the idea was to overcome these differences by creating a identity that connected all the areas of design. The identity, which was made by a group of students and recently graduated students, implied the construction of graphic material, merchandising, social media and promotional content.
