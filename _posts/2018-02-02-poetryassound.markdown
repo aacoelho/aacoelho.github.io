@@ -11,21 +11,23 @@ The development of this project implied the research of the Sonification field, 
 img: "poetryassound.png"
 link: ""
 gallery:
-  - img: ""
+  - img: "img_01.png"
     caption: "Shapes used to represent each type of sonified information."
-  - img: ""
+  - img: "img_02.png"
     caption: "Application structure."
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
+    src: "https://player.vimeo.com/video/201050778?byline=0&portrait=0"
     caption: ""
   - img: ""
+    src: "https://player.vimeo.com/video/180120006?byline=0&portrait=0"
     caption: ""
-  - img: ""
+  - img: "img_03.png"
+    caption: ""
+  - img: "img_03.png"
     caption: "Physical artifact."
-  - img: ""
+  - img: "img_03.png"
     caption: ""
-  - img: ""
+  - img: "img_03.png"
     caption: ""
 details:
   tag: details
@@ -67,6 +69,9 @@ references:
       link: https://vimeo.com/album/4949242
 
 ---
+
+<iframe src="https://player.vimeo.com/video/201050778?autoplay=1&loop=1&byline=0&portrait=0" width="640" height="374" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
