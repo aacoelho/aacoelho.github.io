@@ -1,6 +1,15 @@
 <div class="gallery_item sectionList_item">
-  {% assign img_path = "/assets/projects" | append: page.url | append: "/" | append: image.img %}
-  <img src="{{ img_path | absolute_url }}" alt="" class="gallery_item_img sectionList_item_img">
+
+  {% if image.src == nil or image.src == "" %}
+    {% assign img_path = "/assets/projects" | append: page.url | append: "/" | append: image.img %}
+    <img src="{{ img_path | absolute_url }}" alt="" class="gallery_item_img sectionList_item_img">
+  {% else %}
+    <div class="gallery_item_video sectionList_item_video">
+      <img src="/assets/video_frame.png" alt="" class="gallery_item_video_frame sectionList_item_img">
+      <iframe src="{{ image.src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  {% endif %}
+
   <p class="gallery_item_caption f_textSmall">
     {{ image.caption }}
   </p>
