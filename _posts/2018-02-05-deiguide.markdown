@@ -2,55 +2,51 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 9
+index: 4
 title:  "Dei Guide"
-type: "Typography"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+type: "UX/UI Design + Development"
+description: Creation of a proposal for the wayfinding system of the Department of Informatics Engineering at the University of Coimbra, Portugal. The system presented the teachers bureaus and the way to get there, the different services available inside the department and the path to every room of the building. This academic project was developed in group and consisted in finding the better solution to communicate precisely the information needed by the user in the less time possible. In this way, the approach followed was to associate each one of the main places to a different shape with a specific color and concentrate all the communication basis in these elementary shapes.
 img: "periferia.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-link: "http://hypsoftware.com/pt"
+link: "http://deiguide.altervista.org/"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: "Geometric shapes used to identify each place."
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
+  - img: ""
+    caption: ""
+  - img: ""
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
+        - line: Concept Creation
+        - line: Brand Creation
+        - line: Illustrations
         - line: UX/UI Design
-        - line: Front-end Development
+        - line: Dataset Construction
+        - line: Development
     - subtitle: Technologies
       text:
-        - line: Sketch
+        - line: Adobe Illustrator
         - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
-references:
-  tag: references
-  title: Additional information
-  item:
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
-      link: https://vimeo.com/album/4949242
+        - line: CSS
+        - line: Javascript
+        - line: PHP
+        - line: MySQL
+        - line: AJAX
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

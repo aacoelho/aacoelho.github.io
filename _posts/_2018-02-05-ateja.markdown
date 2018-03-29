@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 8
+index: 7
 title:  "Até Já"
 type: "Graphic Design"
 description: Poster created for the 6th college theatre exhibition <i>Até já!</i>, organised by the theatre students from the Coimbra Education School in Portugal. The main idea for this poster was to reflect the participation role of each student in this project. The exhibition consists in the presentation of a series of small pieces and exercises done by each student, who had the role to create and direct a small piece and where the fellow colleagues appear as actors. The main idea was for the poster reflect the participation of the students to create this exhibition. In this way were used photographic pieces of each student to create a fictional character that is the main object of the poster.

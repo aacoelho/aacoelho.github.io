@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 1
+index: 0
 title:  "Poetry as sound"
 type: "Sonification"
 description: "Master thesis project inserted in the field of Musical Sonification that consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds.

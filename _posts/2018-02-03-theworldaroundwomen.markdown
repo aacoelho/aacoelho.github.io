@@ -2,42 +2,49 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 4
+index: 3
 title:  "The world around women"
 type: "Exhibition design"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+description: Academic group project to conceive an interactive exhibition about women in design. The exhibition – The world around women – presents the work of 8 different designers from distant places on the globe, and also presents facts and news of their countries about the gender inequality suffered by women. Since the country is the common subject between the designers and the facts presented, all the identity of the exhibition is based in the flag colors of the different countries represented with stripes. The colored stripe is, in this way, the visual element that connects all the rooms in the exhibition and sets the tone to the approach for all the graphic material developed. The exhibition is complemented by an application that uses augmented reality to show further information about each designer and country.
 img: "theworldaroundwomen.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-link: "http://hypsoftware.com/pt"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
+  - img: ""
+    src: "https://player.vimeo.com/video/132353896?byline=0&portrait=0"
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
-        - line: UX/UI Design
-        - line: Front-end Development
+        - line: Concept Creation
+        - line: Research
+        - line: Brand Design
+        - line: Graphic Design
+        - line: 3D Modelation
+        - line: App Development
     - subtitle: Technologies
       text:
-        - line: Sketch
+        - line: Adobe Indesign
+        - line: Adobe Illustrator
+        - line: Adobe Photoshop
+        - line: Cinema 4D
+        - line: Junaio
         - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
+        - line: Javascript
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

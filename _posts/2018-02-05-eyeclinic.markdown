@@ -2,55 +2,35 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 6
+index: 5
 title:  "Eye Clinic"
-type: "Typography"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
+type: "UX/UI Design"
+description: Creation and development by HYP of an Eye Clinic presentation website with its services and different offices. The design approach was based in the creation of visual elements that present the different sections of the website and improves the understanding and experience of the user through the website.
 img: "periferia.png"
-description: Desenvolvimento de uma proposta de reformulação do website da HYP mantendo a identidade da empresa já existente. Tentou-se criar uma nova abordagem gráfica para uma identidade já construída, renovando a exploração e aplicação da marca nos diferentes meios existentes.
-link: "http://hypsoftware.com/pt"
 gallery:
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
   - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: ""
-    caption: "Landing Section animation, that explores the concept of the identity."
+    caption: ""
 details:
   tag: details
   title: Details
   item:
     - subtitle: Role
       text:
-        - line: Photography Edition
+        - line: Icon Design
+        - line: Illustration
         - line: UX/UI Design
-        - line: Front-end Development
     - subtitle: Technologies
       text:
         - line: Sketch
-        - line: HTML
-        - line: SASS
-        - line: jQuery
-        - line: Ruby on Rails
-references:
-  tag: references
-  title: Additional information
-  item:
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2017). A Portuguese Epopee Seen Through Sound. Paper presented at the xCoAx Conference, Porto, Portugal.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: Coelho, Â., Martins, P., & Cardoso, A. (2016). A Musical Sonification of the Portuguese Epopee. Paper presented at the Workshop on Musical Metacreation (MUME), Paris, France.
-      link: https://vimeo.com/album/4949242
-    - text:
-        - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
-      link: https://vimeo.com/album/4949242
+        - line: Adobe Illustrator
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -2,16 +2,12 @@
 layout: post
 tag: "post"
 permalink: /:title
-index: 2
-title:  "Polis"
-type: "Branding + UX/UI design"
-description: Polis is an application that intends to engage the citizens to participate in the decisions of his country, city, company, school or any other institution he belongs to, by creating a voting system that allows the user to give is opinion and to see the general public decision. This application makes possible for the user to approve and disapprove ideas that can be added to the application by a another citizen, a deputy or another entity, which makes possible to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UX/UI design of the application screens.
-img: "polis.png"
+index: 4
+title:  "Lalaoke"
+type: "UX/UI Design"
+description: Mobile game conceived and developed by HYP, that consists in guessing a song hummed (trauteada) by another player. A player can challenge another player or friend, select from a pack of songs a song to hum and send his creation to be guessed by his opponent. Each player gains points if his creation is correctly guessed or if he guesses the song of another player correctly. The idea explored for the design of the application was to incorporate the illustrations already made and create fluid and light screens for the game.
+img: "periferia.png"
 gallery:
-  - img: ""
-    caption: ""
-  - img: ""
-    caption: ""
   - img: ""
     caption: ""
   - img: ""
@@ -26,7 +22,6 @@ details:
   item:
     - subtitle: Role
       text:
-        - line: Brand Creation
         - line: UX/UI Design
     - subtitle: Technologies
       text:
