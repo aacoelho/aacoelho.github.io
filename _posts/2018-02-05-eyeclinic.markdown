@@ -6,7 +6,7 @@ index: 5
 title:  "Eye Clinic"
 type: "UX/UI Design"
 description: Creation and development by HYP of an Eye Clinic presentation website with its services and different offices. The design approach was based in the creation of visual elements that present the different sections of the website and improves the understanding and experience of the user through the website.
-img: "periferia.png"
+img: "eyeclinic_avatar.png"
 gallery:
   - img: ""
     caption: ""

@@ -6,7 +6,7 @@ index: 6
 title:  "Grafreec"
 type: "UX/UI Design + Development"
 description: Grafreec is a website that provides, everyday, a new free graphic material that can be used in any context, both personal and commercial. The main concept for this project was the exploration of the four different areas each one associated with a different color. When one area is chosen the main theme color of the website switches to the area color. The different areas can also connect between each other, which is represented by a gradient with the main colors of each classification.
-img: "periferia.png"
+img: "grafreec_avatar.png"
 link: "https://grafreec.com/"
 gallery:
   - img: ""
