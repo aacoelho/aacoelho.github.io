@@ -6,12 +6,10 @@ index: 4
 title:  "Dei Guide"
 type: "UX/UI Design + Development"
 description: Creation of a proposal for the wayfinding system of the Department of Informatics Engineering at the University of Coimbra, Portugal. The system presented the teachers bureaus and the way to get there, the different services available inside the department and the path to every room of the building. This academic project was developed in group and consisted in finding the better solution to communicate precisely the information needed by the user in the less time possible. In this way, the approach followed was to associate each one of the main places to a different shape with a specific color and concentrate all the communication basis in these elementary shapes.
-img: "deiguide_avatar.png"
+img: "deiguide_avatar.gif"
 link: "http://deiguide.altervista.org/"
 gallery:
-  - img: ""
-    caption: ""
-  - img: ""
+  - img: "1_deiguide_shapes.png"
     caption: "Geometric shapes used to identify each place."
   - img: ""
     caption: ""
@@ -23,7 +21,7 @@ gallery:
     caption: ""
   - img: ""
     caption: ""
-  - img: ""
+  - img: "7_deiguide_screen.png"
     caption: ""
 details:
   tag: details
