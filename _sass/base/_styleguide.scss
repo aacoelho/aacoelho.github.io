@@ -42,8 +42,8 @@ body {
   }
 
   //Skew Effect
-  .main {
-    transition: transform $d_very_slow_duration;
+  .skewEffect {
+    transition: transform $d_slow_duration;
     will-change: transform;
     height: 100%;
 
