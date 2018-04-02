@@ -61,12 +61,12 @@ const looper = function () {
   const diff = newPixel - currentPixel;
   let speed = diff * 0.25;
 
-  // if(speed > range){
-  //   speed = range;
-  // }
-  // else if (speed < -range) {
-  //   speed = -range;
-  // }
+  if(speed > range){
+    speed = range;
+  }
+  else if (speed < -range) {
+    speed = -range;
+  }
 
   if(speed != 0){
     $(".skewEffect img").addClass("shadow");
