@@ -1,7 +1,7 @@
 //Skew Effect Variables
-const section = $(".main");
+const section = $(".skewEffect");
 let currentPixel = $(window).scrollTop();
-const range = 12;
+const range = 20;
 
 $(document).ready(function(){
 
@@ -59,20 +59,20 @@ function goTo(target) {
 const looper = function () {
   const newPixel = $(window).scrollTop();
   const diff = newPixel - currentPixel;
-  let speed = diff * 0.2;
+  let speed = diff * 0.25;
 
-  if(speed > range){
-    speed = range;
-  }
-  else if (speed < -range) {
-    speed = -range;
-  }
+  // if(speed > range){
+  //   speed = range;
+  // }
+  // else if (speed < -range) {
+  //   speed = -range;
+  // }
 
   if(speed != 0){
-    $(".main img").addClass("shadow");
+    $(".skewEffect img").addClass("shadow");
   }
   else {
-    $(".main img").removeClass("shadow");
+    $(".skewEffect img").removeClass("shadow");
   }
 
   section.css("transform", "skewY(" + speed + "deg)");
