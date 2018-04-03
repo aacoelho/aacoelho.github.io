@@ -17,7 +17,7 @@ gallery:
     caption: ""
   - img: ""
     caption: ""
-  - img: ""
+  - img: "5_deiguide_room.png"
     caption: ""
   - img: ""
     caption: ""
