@@ -8,8 +8,11 @@
   left: 0;
   @include centerer_flexbox;
   display: flex;
-  visibility: hidden;
-  opacity: 0;
+  // visibility: hidden;
+  // opacity: 0;
+
+  visibility: visible;
+  opacity: 1;
 
   animation-duration: $d_medium_duration;
   animation-fill-mode: both;
@@ -31,10 +34,16 @@
     animation-name: transition_in;
   }
 
-  &.loading-show
+  // &.loading-show
+  // {
+  //   visibility: visible;
+  //   opacity: 1;
+  // }
+
+  &.loading-hidden
   {
-    visibility: visible;
-    opacity: 1;
+    visibility: hidden;
+    opacity: 0;
   }
 
   &.loading-out

@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $("body").css("overflow", "hidden");
     $(".main").addClass("fade-out");
-    $(".loading").removeClass("loading-out").addClass("loading-show").addClass("loading-in");
+    $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
 
     setTimeout(function(){
       $(location).attr('href', newLocation);
@@ -43,7 +43,7 @@ $(window).on('load', function () {
   $("body").css("overflow", "visible");
 
   setTimeout(function(){
-    $(".loading").removeClass("loading-show");
+    $(".loading").addClass("loading-hidden");
   }, 300);
 });
 

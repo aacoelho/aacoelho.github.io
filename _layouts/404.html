@@ -6,7 +6,7 @@
   <body class="body--404">
 
     <div class="main">
-      <div class="skewEffect">        
+      <div class="skewEffect">
         <section class="container container-404">
           {{ content }}
         </section>
@@ -21,11 +21,20 @@
 
 
   <script type="text/javascript">
-    $(".loading").addClass("loading-show");
+    $(".loading").removeClass("loading-hidden");
     $(".loading_text").css("opacity", "1");
     $("body").css("overflow", "hidden");
     $(".main").css("opacity","0");
   </script>
+
+  <noscript>
+    <style media="screen">
+      .loading
+      {
+        display: none;
+      }
+    </style>
+  </noscript>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>

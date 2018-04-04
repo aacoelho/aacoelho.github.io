@@ -5,6 +5,9 @@
     background-color: $c_highlight;
     background-image: linear-gradient(to bottom, rgba($c_background, 0.3) -2%, $c_highlight 2%, $c_highlight 98%, rgba($c_background, 0.7) 101%);
 
+    .main {
+      height: 100%;
+    }
   }
 
   .container-404 {
