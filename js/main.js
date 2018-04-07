@@ -21,7 +21,8 @@ $(document).ready(function(){
 
     $("body").css("overflow", "hidden");
     $(".main").addClass("fade-out");
-    $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
+    // $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
+    $(".loading").removeClass("loading-out").addClass("loading-in");
 
     setTimeout(function(){
       $(location).attr('href', newLocation);
@@ -42,9 +43,9 @@ $(window).on('load', function () {
   $(".main").addClass("fade-in");
   $("body").css("overflow", "visible");
 
-  setTimeout(function(){
-    $(".loading").addClass("loading-hidden");
-  }, 300);
+  // setTimeout(function(){
+  //   $(".loading").addClass("loading-hidden");
+  // }, 300);
 });
 
 //Scroll to Anchor
