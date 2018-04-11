@@ -41,7 +41,7 @@ details:
         - line: Visual Graphics
         - line: Programming
         - line: Editorial Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Processing
         - line: Max/MSP

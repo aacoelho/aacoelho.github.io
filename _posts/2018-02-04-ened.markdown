@@ -34,7 +34,7 @@ details:
         - line: Graphic Design
         - line: Editorial Design
         - line: Video Edition
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Adobe Indesign
         - line: Adobe Illustrator

@@ -23,7 +23,7 @@ details:
     - subtitle: Role
       text:
         - line: UX/UI Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Sketch
 ---

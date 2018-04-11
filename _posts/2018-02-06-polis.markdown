@@ -26,7 +26,7 @@ details:
       text:
         - line: Brand Creation
         - line: UX/UI Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Sketch
 ---

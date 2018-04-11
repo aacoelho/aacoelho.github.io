@@ -37,7 +37,7 @@ details:
         - line: Graphic Design
         - line: 3D Modelation
         - line: App Development
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Adobe Indesign
         - line: Adobe Illustrator

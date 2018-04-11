@@ -20,7 +20,7 @@ details:
       text:
         - line: Photography Edition
         - line: Graphic Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Adobe Photoshop
         - line: Adobe Indesign

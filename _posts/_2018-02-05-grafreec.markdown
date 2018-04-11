@@ -23,7 +23,7 @@ details:
       text:
         - line: UX/UI Design
         - line: Front-end Development
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Adobe Illustrator
         - line: HTML

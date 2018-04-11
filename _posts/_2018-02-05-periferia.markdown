@@ -25,7 +25,7 @@ details:
         - line: Photography Edition
         - line: Typeface Development
         - line: Graphic Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Adobe Illustrator
         - line: Adobe Indesign

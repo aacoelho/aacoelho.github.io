@@ -30,7 +30,7 @@ details:
         - line: Photography Edition
         - line: UX/UI Design
         - line: Front-end Development
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Sketch
         - line: Adobe Photoshop

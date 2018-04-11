@@ -27,7 +27,7 @@ details:
         - line: Icon Design
         - line: Illustration
         - line: UX/UI Design
-    - subtitle: Technologies
+    - subtitle: Tools
       text:
         - line: Sketch
         - line: Adobe Illustrator
