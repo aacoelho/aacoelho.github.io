@@ -169,7 +169,7 @@ body {
 
     &:hover{
       filter: drop-shadow($e_shadow_hover);
-      transform: translate(-2px, -2px);
+      transform: skewX(-5deg);
     }
   }
 }

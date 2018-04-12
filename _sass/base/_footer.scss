@@ -58,7 +58,7 @@
     &_arrow {
       .arrowSvg:hover{
         filter: drop-shadow($e_shadow_hover_180);
-        transform: translate(-2px, 2px);
+        transform: skewX(5deg);
       }
     }
   }

@@ -25,24 +25,35 @@
   @include breakpoint($b_transition){
     &:hover {
       text-shadow: $shadow;
-      transform: translate(-2px, -2px);
+      // transform: translate(-2px, -2px) skewX(-10deg);
+      transform: skewX(-10deg);
     }
   }
 
 }
 
 @mixin work_animation{
-  @include f_link_animation;
+  transition: $a_fast_transition;
+  display: inline-block;
 
-  .workItem_img {
+  .workItem_img, .workItem_title, .workItem_type {
     transition: $a_fast_transition;
   }
 
   @include breakpoint($b_transition){
     &:hover {
-      .workItem_img
-      {
+
+      .workItem_title, .workItem_type {
+        text-shadow: $e_shadow_hover;
+        // transform: translate(-2px, -2px) skewX(-10deg);
+        transform: skewX(-10deg);
+      }
+
+      .workItem_img {
+        // transform: translate(-2px, -2px);
+        transform: skewX(-5deg);
         box-shadow: $e_shadow_hover;
+
       }
     }
   }
