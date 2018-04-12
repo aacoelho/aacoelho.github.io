@@ -5,6 +5,10 @@
 
   <body>
 
+    <div class="loading">
+      <p class="loading_text f_displaySection">Loading ...</p>
+    </div>
+
     <div class="main">
       <div class="skewEffect">
 
@@ -36,21 +40,18 @@
       </div>
     </div>
 
-    <div class="loading">
-      <p class="loading_text f_displaySection">Loading ...</p>
-    </div>
-
   </body>
 
 </html>
 
 <script type="text/javascript">
-
-  //Transition
-  //$(".loading").removeClass("loading-hidden");
-  $(".loading_text").css("opacity", "1");
-  $("body").css("overflow", "hidden");
-  $(".main").css("opacity","0");
+  $(document).ready(function(){
+    //Transition
+    //$(".loading").removeClass("loading-hidden");
+    $(".loading_text").css("opacity", "1");
+    $("body").css("overflow", "hidden");
+    $(".main").css("opacity","0");
+  });
 
 </script>
 

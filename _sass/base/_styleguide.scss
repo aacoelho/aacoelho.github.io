@@ -71,6 +71,11 @@ body {
     }
   }
 
+  .main {
+    transition: opacity $d_slow_duration ease-in-out;
+    opacity: 0 !important;
+  }
+
   /* Info Top Page */
   .info {
     margin-bottom: calc(2* #{$d_scale_s});

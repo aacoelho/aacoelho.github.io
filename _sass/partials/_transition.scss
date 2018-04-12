@@ -72,10 +72,11 @@
 }
 
 .fade-in{
-  transition: opacity $d_slow_duration ease-in-out;
+  // transition: opacity $d_slow_duration ease-in-out;
   opacity: 1 !important;
 }
+
 .fade-out{
-  transition: opacity $d_slow_duration ease-in-out;
+  // transition: opacity $d_slow_duration ease-in-out;
   opacity: 0 !important;
 }

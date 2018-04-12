@@ -5,6 +5,10 @@
 
   <body class="body--404">
 
+    <div class="loading">
+      <p class="loading_text f_displaySection">Loading ...</p>
+    </div>
+
     <div class="main">
       <div class="skewEffect">
         <section class="container container-404">
@@ -13,18 +17,23 @@
       </div>
     </div>
 
-    <div class="loading">
-      <p class="loading_text f_displaySection">Loading ...</p>
-    </div>
-
   </body>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
+
+
+</html>
 
 
   <script type="text/javascript">
-    //$(".loading").removeClass("loading-hidden");
-    $(".loading_text").css("opacity", "1");
-    $("body").css("overflow", "hidden");
-    $(".main").css("opacity","0");
+    $(document).ready(function(){
+      //$(".loading").removeClass("loading-hidden");
+      $(".loading_text").css("opacity", "1");
+      console.log("ola");
+      $("body").css("overflow", "hidden");
+      $(".main").css("opacity","0");
+    });
   </script>
 
   <noscript>
@@ -35,8 +44,3 @@
       }
     </style>
   </noscript>
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
-
-</html>
