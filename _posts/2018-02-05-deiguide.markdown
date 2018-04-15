@@ -9,7 +9,7 @@ description: Creation of a proposal for the wayfinding system of the Department 
 img: "deiguide_avatar.gif"
 gallery:
   - img: "1_deiguide_shapes.png"
-    caption: "Geometric shapes used to identify each place."
+    caption: ""
   - img: "2_deiguide_profs.gif"
     caption: ""
   - img: "3_deiguide_services.png"

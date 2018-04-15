@@ -10,13 +10,9 @@ img: "eyeclinic_avatar.png"
 gallery:
   - img: "1_eyeclinic_icons.png"
     caption: ""
-  - img: ""
+  - img: "2_eyeclinic_home.gif"
     caption: ""
-  - img: ""
-    caption: ""
-  - img: ""
-    caption: ""
-  - img: ""
+  - img: "3_eyeclinic_illustrations.png"
     caption: ""
 details:
   tag: details
