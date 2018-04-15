@@ -33,6 +33,10 @@ events:
   tag: events
   title: Events
   item:
+    - subtitle: Apr 2018
+      text:
+        - line: Ciclo de Conversas Design+Multimédia
+        - line: Coimbra - Portugal
     - subtitle: Jan 2018
       text:
         - line: D’Os Lusíadas ao Twitter
