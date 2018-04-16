@@ -7,11 +7,13 @@
   <meta name="author" content="{{ site.author }}">
 
   <!-- Facebook Metatags -->
-  <meta property="og:url" content="angelacoelho.com" />
-  <meta property="og:type" content="{{ page.fb_description }}" />
+  <meta property="og:url" content="http://angelacoelho.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ page.fb_description }}" />
   <meta property="og:title" content="{{ page.fb_title }}" />
-  {% assign img_path = "/assets/" | append: page.img %}
+  {% assign img_path = "/assets/" | append: page.fb_img %}
   <meta property="og:image" content="{{ img_path | relative_url }}" />
+  <!-- <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" /> -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
