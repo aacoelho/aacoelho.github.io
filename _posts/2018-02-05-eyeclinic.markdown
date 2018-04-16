@@ -3,10 +3,13 @@ layout: post
 tag: "post"
 permalink: /:title
 index: 5
+fb_title: Eye Clinic
+fb_description: UX/UI Design
+fb_img: avatar_eyeclinic.png
 title:  "Eye Clinic"
 type: "UX/UI Design"
 description: Creation and development by HYP of an Eye Clinic presentation website with its services and different offices. The design approach was based in the creation of visual elements that present the different sections of the website and improves the understanding and experience of the user through the website.
-img: "eyeclinic_avatar.png"
+img: "avatar_eyeclinic.png"
 gallery:
   - img: "1_eyeclinic_icons.png"
     caption: ""

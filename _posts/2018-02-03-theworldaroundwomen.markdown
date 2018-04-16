@@ -2,11 +2,14 @@
 layout: post
 tag: "post"
 permalink: /:title
+fb_title: The world around women
+fb_description: Exhibition design
+fb_img: avatar_women.png
 index: 3
 title:  "The world around women"
 type: "Exhibition design"
 description: Academic group project to conceive an interactive exhibition about women in design. The exhibition – The world around women – presents the work of 8 different designers from distant places on the globe, and also presents facts and news of their countries about the gender inequality suffered by women. Since the country is the common subject between the designers and the facts presented, all the identity of the exhibition is based in the flag colors of the different countries represented with stripes. The colored stripe is, in this way, the visual element that connects all the rooms in the exhibition and sets the tone to the approach for all the graphic material developed. The exhibition is complemented by an application that uses augmented reality to show further information about each designer and country.
-img: "women_avatar.png"
+img: "avatar_women.png"
 gallery:
   - img: "1_women_poster.png"
     caption: ""

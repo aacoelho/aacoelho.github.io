@@ -2,13 +2,16 @@
 layout: post
 tag: "post"
 permalink: /:title
+fb_title: Poetry as sound
+fb_description: Sonification
+fb_img: avatar_poetry.gif
 index: 0
 title:  "Poetry as sound"
 type: "Sonification"
 description: "Master thesis project inserted in the field of Musical Sonification that consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds.
 The application presents two main features: the sound that gives the information of the poem and a visual component that works as a label. The main goal was to create a new approach to analyze poetry through sound that reflects its structure, story and rhyme characteristics.
 The development of this project implied the research of the Sonification field, the analysis of the poem and the construction of the application, from the graphical approach to the programing development. It was also created a physical artifact that documented the process and results obtained with the research."
-img: "poetry_avatar.gif"
+img: "avatar_poetry.gif"
 link: ""
 gallery:
   - img: "1_poetry_shapes.png"

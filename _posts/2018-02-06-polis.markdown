@@ -2,11 +2,14 @@
 layout: post
 tag: "post"
 permalink: /:title
+fb_title: Polis
+fb_description: Branding + UX/UI design
+fb_img: avatar_polis.png
 index: 2
 title:  "Polis"
 type: "Branding + UX/UI design"
 description: Polis is an application that intends to engage the citizens to participate in the decisions of his country, city, company, school or any other institution he belongs to, by creating a voting system that allows the user to give is opinion and to see the general public decision. This application makes possible for the user to approve and disapprove ideas that can be added to the application by a another citizen, a deputy or another entity, which makes possible to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UX/UI design of the application screens.
-img: "polis_avatar.png"
+img: "avatar_polis.png"
 gallery:
   - img: "1_polis_logo.png"
     caption: ""
