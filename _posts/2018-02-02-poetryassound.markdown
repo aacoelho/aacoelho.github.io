@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: Poetry as sound
+fb_title: Ângela Coelho - Poetry as sound
 fb_description: Sonification
 fb_img: avatar_poetry.gif
 index: 0

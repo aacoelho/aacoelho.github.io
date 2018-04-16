@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: Polis
+fb_title: Ângela Coelho - Polis
 fb_description: Branding + UX/UI design
 fb_img: avatar_polis.png
 index: 2

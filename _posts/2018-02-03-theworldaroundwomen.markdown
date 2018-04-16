@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: The world around women
+fb_title: Ângela Coelho - The world around women
 fb_description: Exhibition design
 fb_img: avatar_women.png
 index: 3

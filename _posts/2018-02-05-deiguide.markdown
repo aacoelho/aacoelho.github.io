@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: Dei Guide
+fb_title: Ângela Coelho - Dei Guide
 fb_description: UX/UI Design + Development
 fb_img: avatar_deiguide.gif
 index: 4

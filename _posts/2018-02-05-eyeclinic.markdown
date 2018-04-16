@@ -3,7 +3,7 @@ layout: post
 tag: "post"
 permalink: /:title
 index: 5
-fb_title: Eye Clinic
+fb_title: Ângela Coelho - Eye Clinic
 fb_description: UX/UI Design
 fb_img: avatar_eyeclinic.png
 title:  "Eye Clinic"

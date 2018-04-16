@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: ENED
+fb_title: Ângela Coelho - ENED
 fb_description: Graphic design
 fb_img: avatar_ened.png
 index: 1
