@@ -22,7 +22,13 @@
     color: $c_text_light;
     opacity: 0;
     // transition: $a_fast_transition;
-    transition: all $d_fast_duration ease-in-out;
+    //transition: all $d_fast_duration ease-in-out;
+    animation-iteration-count: infinite;
+    animation-name: skewLoading;
+    animation-direction: alternate;
+    animation-duration: $d_very_slow_duration;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
 
     &-show {
       opacity: 1;
@@ -68,6 +74,21 @@
   }
   to {
     transform: translateY(-100%);
+  }
+}
+
+@keyframes skewLoading {
+  0% {
+    transform: skewX(0deg);
+  }
+  25% {
+    transform: skewX(-10deg);
+  }
+  50% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(10deg);
   }
 }
 
