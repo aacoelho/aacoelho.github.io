@@ -7,6 +7,9 @@
   <meta name="author" content="{{ site.author }}">
 
   <!-- Facebook Metatags -->
+  <!-- {% assign page_path = "http://angelacoelho.com" | append: page.url %} -->
+  <!-- <meta property="og:url" content="{{ page_path | relative_url }}" /> -->
+  <meta property="og:url" content="{{ page.url | relative_url }}" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{{ page.fb_description }}" />
   <meta property="og:title" content="{{ page.fb_title }}" />
