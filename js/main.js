@@ -40,10 +40,9 @@ $(document).ready(function(){
 //Transition In - Loading
 $(window).on('load', function () {
 
-
   $(".loading_text").css("opacity", "0");
   $(".loading").addClass("loading-out");
-  $("body").removeClass("noScroll").addClass( "cool" );
+  $("body").removeClass("noScroll");
   $(".main").addClass("fade-in");
 
   // setTimeout(function(){
