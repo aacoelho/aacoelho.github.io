@@ -14,15 +14,17 @@ $(document).ready(function(){
     goTo("body");
   });
 
-  //Transition Out
+  //Transition Out - Loading
   $(".link_transition").click(function(e){
     e.preventDefault();
     newLocation = this.href;
 
-    $("body").css("overflow", "hidden");
+    $("body").addClass("noScroll");
     $(".main").addClass("fade-out");
-    // $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
+    $(".loading_text").css("opacity", "0");
     $(".loading").removeClass("loading-out").addClass("loading-in");
+    // $("body").css("overflow", "hidden");
+    // $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
 
     setTimeout(function(){
       $(location).attr('href', newLocation);
@@ -35,13 +37,14 @@ $(document).ready(function(){
 });
 
 
-//Transition In
+//Transition In - Loading
 $(window).on('load', function () {
+
 
   $(".loading_text").css("opacity", "0");
   $(".loading").addClass("loading-out");
+  $("body").removeClass("noScroll").addClass( "cool" );
   $(".main").addClass("fade-in");
-  $("body").css("overflow", "visible");
 
   // setTimeout(function(){
   //   $(".loading").addClass("loading-hidden");

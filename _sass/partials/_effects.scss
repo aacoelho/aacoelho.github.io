@@ -1,0 +1,18 @@
+@include breakpoint($b_initial) {
+
+  //Skew Effect
+  .skewEffect {
+    transition: transform $d_very_slow_duration;
+    will-change: transform;
+    height: 100%;
+
+    img{
+      transition: $a_fast_transition;
+
+      &.shadow{
+
+        box-shadow: $e_shadow_hover;
+      }
+    }
+  }
+}

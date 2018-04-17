@@ -2,11 +2,11 @@
 
   .menu {
     display: flex;
-    // right: $d_scale_s;
-    // top: $d_scale_s;
     right: 0px;
     top: 0px;
     z-index: 1;
+    // right: $d_scale_s;
+    // top: $d_scale_s;
 
     &_list {
       margin-left: auto;

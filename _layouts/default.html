@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="noScroll">
 
     <div class="loading">
       <p class="loading_text f_displaySection">Loading ...</p>
@@ -44,22 +44,16 @@
 
 </html>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    //Transition
-    //$(".loading").removeClass("loading-hidden");
-    $(".loading_text").css("opacity", "1");
-    $("body").css("overflow", "hidden");
-    $(".main").css("opacity","0");
-  });
-
-</script>
-
 <noscript>
   <style media="screen">
     .loading
     {
       display: none;
+    }
+
+    .noScroll
+    {
+      overflow: visible;
     }
   </style>
 </noscript>

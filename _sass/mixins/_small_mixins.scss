@@ -45,7 +45,7 @@
 
       .workItem_title, .workItem_type {
         text-shadow: $e_shadow_hover;
-        // transform: translate(-2px, -2px) skewX(-10deg);
+        // transform: translate(-2px, -2px);
         transform: skewX(-10deg);
       }
 
