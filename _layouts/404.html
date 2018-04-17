@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="author" content="{{ site.author }}">
+
+    <!-- Facebook Metatags -->
+    {% assign page_path = site.url %}
+    <meta property="og:url" content="{{ page_path | relative_url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ page.fb_description }}" />
+    <meta property="og:title" content="{{ page.fb_title }}" />
+    {% assign img_path = site.url | append: "/assets/fb_img.png" %}
+    <meta property="og:image" content="{{ img_path | relative_url }}" />
+
+    <!-- Twitter Metatags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@aacoelho93" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% feed_meta %}
+    {% if jekyll.environment == 'production' %}
+      {% include google-analytics.html %}
+    {% endif %}
+
+
+  </head>
 
   <body class="body--404">
 
