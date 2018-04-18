@@ -4,9 +4,9 @@ tag: "post"
 permalink: /:title
 index: 100
 title:  "HYP"
-type: "UX/UI design + development"
+type: "UI/UX design + development"
 img: "hyp.png"
-description: Redesign of the HYP website, a company who develops projects in the areas of graphic design, UX/UI design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit.
+description: Redesign of the HYP website, a company who develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit.
 It was created a new approach of the application of the brand already existent, with the goal to create a more light and interactive experience between the user and the brand.
 The website starts with a summary presentation of the company, its team, methodologies and projects. Each section has a single page where its explained with further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
 link: "http://hypsoftware.com/pt"
@@ -30,7 +30,7 @@ details:
     - subtitle: Role
       text:
         - line: Photography Edition
-        - line: UX/UI Design
+        - line: UI/UX Design
         - line: Front-end Development
     - subtitle: Tools
       text:

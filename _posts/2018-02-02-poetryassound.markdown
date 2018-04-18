@@ -8,9 +8,7 @@ fb_img: avatar_poetry.gif
 index: 0
 title:  "Poetry as sound"
 type: "Sonification"
-description: "Master thesis project inserted in the field of Musical Sonification that consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds.
-The application presents two main features: the sound that gives the information of the poem and a visual component that works as a label. The main goal was to create a new approach to analyze poetry through sound that reflects its structure, story and rhyme characteristics.
-The development of this project implied the research of the Sonification field, the analysis of the poem and the construction of the application, from the graphical approach to the programing development. It was also created a physical artifact that documented the process and results obtained with the research."
+description: "Master thesis project in the field of Musical Sonification which consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds. The application presents two main features: the sound that gives the information of the poem and a visual component that works as a label. The main goal was to create a new approach to analyse poetry - in this case <i>Os Lusíadas</i> - through sound that reflects its structure, story and rhyme characteristics. The development of this project implied  some research on  the Sonification field, the analysis of the poem and the construction of the application, from the graphical approach to the programing development. It was also created a physical artefact that documented the process and the results obtained after research."
 img: "avatar_poetry.gif"
 link: ""
 gallery:
@@ -70,27 +68,4 @@ references:
     - text:
         - line: "Vimeo: Musical Sonification of the Portuguese Epopee"
       link: https://vimeo.com/album/4949242
-
 ---
-
-<iframe src="https://player.vimeo.com/video/201050778?autoplay=1&loop=1&byline=0&portrait=0" width="640" height="374" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

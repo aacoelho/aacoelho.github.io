@@ -4,9 +4,9 @@ tag: "post"
 permalink: /:title
 index: 0
 title:  "HYP"
-type: "UX/UI design + development"
+type: "UI/UX design + development"
 img: "hyp.png"
-description: Redesign of the HYP website, a company who develops projects in the areas of graphic design, UX/UI design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. It was created a new approach of the application of the brand already existent, with the goal to create a more light and interactive experience between the user and the brand. The website starts with a summary presentation of the company, its team, methodologies and projects. Each section has a single page where its explained with further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
+description: Redesign of the ​HYP​ website, a company which develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. A new approach of the application of the brand already existent was created, the goal being to create a more light and interactive experience between the user and the brand. The website starts with an introduction to the company, its team, methodologies and projects. Each section has a single page where it is explained in further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
 link: "http://hypsoftware.com/pt"
 gallery:
   - img: "img_01.png"
@@ -28,7 +28,7 @@ details:
     - subtitle: Role
       text:
         - line: Photography Edition
-        - line: UX/UI Design
+        - line: UI/UX Design
         - line: Front-end Development
     - subtitle: Tools
       text:
@@ -39,24 +39,4 @@ details:
         - line: SASS
         - line: jQuery
         - line: Ruby on Rails
-
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

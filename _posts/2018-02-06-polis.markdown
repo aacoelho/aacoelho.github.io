@@ -3,12 +3,12 @@ layout: post
 tag: "post"
 permalink: /:title
 fb_title: Ângela Coelho - Polis
-fb_description: Branding + UX/UI design
+fb_description: Branding + UI/UX design
 fb_img: avatar_polis.png
 index: 2
 title:  "Polis"
-type: "Branding + UX/UI design"
-description: Polis is an application that intends to engage the citizens to participate in the decisions of his country, city, company, school or any other institution he belongs to, by creating a voting system that allows the user to give is opinion and to see the general public decision. This application makes possible for the user to approve and disapprove ideas that can be added to the application by a another citizen, a deputy or another entity, which makes possible to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UX/UI design of the application screens.
+type: "Branding + UI/UX design"
+description: Polis is an application that intends to engage the citizens in the decisions of their country, city, company, school or any other institution they belong to, by creating a voting digital system that allows the user to give their opinion and to see the general public decision. This application makes it possible for the user to approve and disapprove ideas that can be added to the application by another citizen, a deputy or another entity, which allows to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UI/UX design of the application screens.
 img: "avatar_polis.png"
 gallery:
   - img: "1_polis_logo.png"
@@ -26,27 +26,8 @@ details:
     - subtitle: Role
       text:
         - line: Brand Creation
-        - line: UX/UI Design
+        - line: UI/UX Design
     - subtitle: Tools
       text:
         - line: Sketch
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
