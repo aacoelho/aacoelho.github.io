@@ -1,5 +1,26 @@
 @include breakpoint($b_initial) {
 
+  // .landscape {
+  //   .landingSection {
+  //     align-content: inherit;
+  //
+  //     &_top {
+  //       width: 100%;
+  //       transform: rotate(0deg);
+  //       position: inherit;
+  //       justify-content: flex-start;
+  //
+  //       &_title {
+  //         margin-left: 0px;
+  //
+  //         br {
+  //           display: block;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
   .landingSection {
     $margin: calc(2 * #{$d_scale_s});
     margin-bottom: calc(2 * #{$d_scale_s});
@@ -13,7 +34,8 @@
       transform-origin: 100% 0%;
       transform: rotate(270deg);
       //right: calc(100% - calc(#{$d_scale_s} + 10px));
-      right: calc(100% - #{$d_scale_s});
+      right: calc(100% - 10px);
+      // right: calc(100% - #{$d_scale_s});
       position: absolute;
       top: $d_scale_s;
       justify-content: flex-end;

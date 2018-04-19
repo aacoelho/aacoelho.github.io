@@ -22,7 +22,7 @@ $(document).ready(function(){
     $("body").addClass("noScroll");
     $(".main").addClass("fade-out");
     $(".loading_text").css("opacity", "0");
-    $(".loading").removeClass("loading-out").addClass("loading-in");
+    $(".loading").removeClass("loading-hidden").removeClass("loading-out").addClass("loading-in");
     // $("body").css("overflow", "hidden");
     // $(".loading").removeClass("loading-out").removeClass("loading-hidden").addClass("loading-in");
 
@@ -31,6 +31,14 @@ $(document).ready(function(){
     }, 300);
 
   });
+
+  // $(window).orientationchange(function(){
+  //   if(window.innerHeight > window.innerWidth){
+  //     $("body").addClass("landscape");
+  //   }
+  // });
+
+  //window
 
   looper();
 
@@ -45,9 +53,9 @@ $(window).on('load', function () {
   $("body").removeClass("noScroll");
   $(".main").addClass("fade-in");
 
-  // setTimeout(function(){
-  //   $(".loading").addClass("loading-hidden");
-  // }, 300);
+  setTimeout(function(){
+    $(".loading").addClass("loading-hidden");
+  }, 300);
 });
 
 //Scroll to Anchor
@@ -78,6 +86,9 @@ const looper = function () {
     $(".skewEffect img").removeClass("shadow");
   }
 
+  if($(window).width()<1024){
+    speed = 0;
+  }
   section.css("transform", "skewY(" + speed + "deg)");
 
   currentPixel = newPixel;

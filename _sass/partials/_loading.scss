@@ -41,11 +41,11 @@
   //   opacity: 1;
   // }
 
-  // &.loading-hidden
-  // {
-  //   visibility: hidden;
-  //   opacity: 0;
-  // }
+  &.loading-hidden
+  {
+    visibility: hidden;
+    opacity: 0;
+  }
 
   &.loading-out
   {
