@@ -16,7 +16,8 @@
   .landingSection {
     $margin: calc(2 * #{$d_scale_s});
     margin-bottom: calc(2 * #{$d_scale_s});
-    height: calc(100vh - calc(#{$margin} + 32px));
+    // height: calc(100vh - calc(#{$margin} + 32px));
+    height: calc(100vh - 72px);
     max-height: 1024px;
     display: flex;
     flex-wrap: wrap;

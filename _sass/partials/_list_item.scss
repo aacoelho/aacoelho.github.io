@@ -50,7 +50,8 @@
   .sectionList {
 
     &_item {
-      width: calc(50% - calc(#{$d_scale_s}/2));
+      //width: calc(50% - calc(#{$d_scale_s}/2));
+      width: calc(50% - 10px);
     }
   }
 }
@@ -60,7 +61,8 @@
   .sectionList {
 
     &_item {
-      width: calc(50% - calc(#{$d_scale_m}/2));
+      //width: calc(50% - calc(#{$d_scale_m}/2));
+      width: calc(50% - 25px);
       margin-bottom: $d_scale_m;
     }
   }
