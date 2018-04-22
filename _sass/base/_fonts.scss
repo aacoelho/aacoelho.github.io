@@ -172,9 +172,9 @@ $f_bold: 700;
     color: $c_text_dark;
   }
 
-  .f_textBig{
-    font-size: 1.25rem; //20px
-  }
+  // .f_textBig{
+  //   font-size: 1.25rem; //20px
+  // }
 
   .f_nav{
 
@@ -182,6 +182,14 @@ $f_bold: 700;
       color: $c_nav_text_hover;
       text-decoration: underline !important;
     }
+  }
+
+}
+
+@include breakpoint($b_large){
+
+  .f_textBig{
+    font-size: 1.25rem; //20px
   }
 
 }

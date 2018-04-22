@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ângela Coelho - Portfolio
+title: Ângela Coelho | Portfolio
 author: Ângela Coelho
 keywords: angela, coelho, multimedia, designer, print, programming, front-end, developer, portfolio
 email: angacoelho@gmail.com

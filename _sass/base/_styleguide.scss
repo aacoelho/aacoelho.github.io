@@ -112,7 +112,20 @@ body {
   }
 }
 
+@include breakpoint($b_small_medium) {
+
+  /* Geral */
+  body {
+    padding:  $d_scale_s $d_scale_m;
+  }
+}
+
 @include breakpoint($b_medium) {
+
+  /* Geral */
+  body {
+    padding: $d_scale_s;
+  }
 
   /* Info Top Page */
   .info {
