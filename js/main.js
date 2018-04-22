@@ -32,13 +32,16 @@ $(document).ready(function(){
 
   });
 
-  // $(window).orientationchange(function(){
-  //   if(window.innerHeight > window.innerWidth){
-  //     $("body").addClass("landscape");
-  //   }
-  // });
+  //Orientation Title
+  orientationScreen();
 
-  //window
+  $(window).resize(function(){
+    orientationScreen();
+  });
+
+  $(window).on('orientationchange', function(event) {
+    orientationScreen();
+  });
 
   looper();
 
@@ -57,6 +60,16 @@ $(window).on('load', function () {
     $(".loading").addClass("loading-hidden");
   }, 300);
 });
+
+//Orientation Mobile Screen
+function orientationScreen(){
+  if(window.innerHeight < window.innerWidth){
+    $("body").addClass("landscape");
+  }
+  else {
+    $("body").removeClass("landscape");
+  }
+}
 
 //Scroll to Anchor
 function goTo(target) {
