@@ -2,13 +2,13 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: Ângela Coelho - Dei Guide
+fb_title: Ângela Coelho - DEI Guide
 fb_description: UI/UX Design + Development
 fb_img: avatar_deiguide.gif
 index: 4
-title:  "Dei Guide"
+title:  "DEI Guide"
 type: "UI/UX Design + Development"
-description: Creation of a proposal for the wayfinding system of the Department of Informatics Engineering at the University of Coimbra, Portugal. The system presented the teacher’s bureaus and the way to get there, the different services available inside the department and the path to every room of the building. This academic project was developed in group and consisted in finding the better solution to accurately communicate the information needed by the user as quickly as possible. Thus, the approach followed was to associate each one of the main places to a different shape with a specific colour and concentrate all the communication basis in these elementary shapes.
+description: Creation of a proposal for the wayfinding system of the Department of Informatics Engineering (DEI) at the University of Coimbra, Portugal. The system presented the teacher’s bureaus and the way to get there, the different services available inside the department and the path to every room of the building. This academic project was developed in group and consisted in finding the better solution to accurately communicate the information needed by the user as quickly as possible. Thus, the approach followed was to associate each one of the main places to a different shape with a specific colour and concentrate all the communication basis in these elementary shapes.
 img: "avatar_deiguide.gif"
 gallery:
   - img: "1_deiguide_shapes.png"
