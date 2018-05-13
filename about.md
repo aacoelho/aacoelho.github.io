@@ -14,7 +14,7 @@ experience:
   item:
     - subtitle: Oct 2016 > Present
       text:
-        - line: Designer
+        - line: Web Designer
         - line: HYP - IPN
         - line: Coimbra - Portugal
     - subtitle: Jun 2015 > Mar 2016
