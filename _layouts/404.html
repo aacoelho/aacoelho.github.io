@@ -23,7 +23,10 @@
     <meta name="twitter:site" content="@aacoelho93" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <style media="screen">
+      {% include criticalstyles.css %}
+    </style>
+
     {% feed_meta %}
     {% if jekyll.environment == 'production' %}
       {% include google-analytics.html %}
@@ -48,8 +51,9 @@
 
   </body>
 
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}" async></script>
 
 
 </html>
