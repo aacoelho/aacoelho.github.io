@@ -5,7 +5,7 @@ permalink: /:title
 fb_title: Ângela Coelho - ENED
 fb_description: Graphic design
 fb_img: avatar_ened.png
-index: 1
+index: 2
 title:  "ENED"
 type: "Graphic design"
 description: Creation of the image of the 5th Design Students National Meeting (ENED) in Coimbra, Portugal. This meeting brings together design students of different fields during five days full of activities which comprise the main areas of interest in this area. Since this is an event that combines many fields and subjects related to design, the idea was to overcome these differences by creating an identity that connected all the areas of design. The identity, which was created by a group of students and graduates, implied the construction of all the graphic material, merchandising, social media and promotional content.

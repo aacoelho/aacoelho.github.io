@@ -48,5 +48,6 @@ details:
         - line: Cinema 4D
         - line: Junaio
         - line: HTML
+        - line: CSS
         - line: Javascript
 ---

@@ -5,7 +5,7 @@ permalink: /:title
 fb_title: Ângela Coelho - Polis
 fb_description: Branding + UI/UX design
 fb_img: avatar_polis.png
-index: 2
+index: 3
 title:  "Polis"
 type: "Branding + UI/UX design"
 description: Polis is an application that intends to engage the citizens in the decisions of their country, city, company, school or any other institution they belong to, by creating a voting digital system that allows the user to give their opinion and to see the general public decision. This application makes it possible for the user to approve and disapprove ideas that can be added to the application by another citizen, a deputy or another entity, which allows to collect the public opinion outside the standard voting system. This project consisted in the development of the brand and the UI/UX design of the application screens.
