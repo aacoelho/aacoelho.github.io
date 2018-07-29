@@ -12,18 +12,14 @@ description: Redesign of the ​HYP​ website, a company which develops project
 img: "avatar_hyp.gif"
 link: "https://hyp.pt/"
 gallery:
-  - img: "img_01.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_02.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_03.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_04.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_05.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
-  - img: "img_06.png"
-    caption: "Landing Section animation, that explores the concept of the identity."
+  - img: "1_hyp_home.gif"
+    caption: ""
+  - img: "2_hyp_projects.png"
+    caption: ""
+  - img: "3_hyp_steps.gif"
+    caption: ""
+  - img: "4_hyp_pops.gif"
+    caption: ""
 details:
   tag: details
   title: Details

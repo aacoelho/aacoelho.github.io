@@ -17,6 +17,11 @@ experience:
         - line: Web Designer
         - line: HYP - IPN
         - line: Coimbra - Portugal
+    - subtitle: Sep 2017 > Jul 2018
+      text:
+        - line: Designer
+        - line: myPolis
+        - line: Portugal
     - subtitle: Jun 2015 > Mar 2016
       text:
         - line: Event Organization
