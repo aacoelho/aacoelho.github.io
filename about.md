@@ -75,7 +75,6 @@ tools:
         - line: Javascript/jQuery
         - line: Adobe After Effects
         - line: Max/MSP
-        - line: Ruby on Rails
 website:
   tag: website
   item:
