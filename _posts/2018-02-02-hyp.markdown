@@ -8,7 +8,7 @@ fb_img: avatar_hyp.gif
 index: 1
 title:  "HYP"
 type: "UI/UX design + Development"
-description: Redesign of the ​HYP​ website, a company which develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. A new approach of the application of the brand already existent was created, the goal being to create a more light and interactive experience between the user and the brand. The website starts with an introduction to the company, its team, methodologies and projects. Each section has a single page where it is explained in further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
+description: Redesign of the ​<a class='f_textBig-link' target='_blank' href='https://hyp.pt/'>HYP​</a> website, a company which develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. A new approach of the application of the brand already existent was created, the goal being to create a more light and interactive experience between the user and the brand. The website starts with an introduction to the company, its team, methodologies and projects. Each section has a single page where it is explained in further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
 img: "avatar_hyp.gif"
 link: "https://hyp.pt/"
 gallery:

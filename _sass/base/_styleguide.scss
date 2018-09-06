@@ -7,6 +7,10 @@
   box-sizing: inherit;
 }
 
+/* Hide Scroll bar*/
+::-webkit-scrollbar {
+  display: none;
+}
 
 /* Text Selection Colors */
 ::selection { /* WebKit/Blink Browsers */

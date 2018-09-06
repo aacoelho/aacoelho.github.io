@@ -8,7 +8,7 @@ fb_description: UI/UX Design
 fb_img: avatar_eyeclinic.png
 title:  "Eye Clinic"
 type: "UI/UX Design"
-description: Creation and development by HYP of an Eye Clinic presentation website with its services and different offices. The design approach was based on the creation of visual elements that presented the different sections of the website and improved the understanding and experience of the user in the website.
+description: Creation and development by ​<a class='f_textBig-link' target='_blank' href='https://hyp.pt/'>HYP​</a> of an Eye Clinic presentation website with its services and different offices. The design approach was based on the creation of visual elements that presented the different sections of the website and improved the understanding and experience of the user in the website.
 img: "avatar_eyeclinic.png"
 gallery:
   - img: "1_eyeclinic_icons.png"
