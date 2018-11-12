@@ -1,7 +1,7 @@
 //Skew Effect Variables
 const section = $(".skewEffect");
 let currentPixel = $(window).scrollTop();
-const range = 20;
+const range = 15;
 
 $(document).ready(function(){
 
@@ -83,7 +83,7 @@ function goTo(target) {
 const looper = function () {
   const newPixel = $(window).scrollTop();
   const diff = newPixel - currentPixel;
-  let speed = diff * 0.25;
+  let speed = diff * 0.15;
 
   if(speed > range){
     speed = range;
