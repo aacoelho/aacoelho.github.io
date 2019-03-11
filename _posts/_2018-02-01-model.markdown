@@ -31,7 +31,7 @@ details:
       text:
         - line: Photography Edition
         - line: UI/UX Design
-        - line: Front-end Development
+        - line: Frontend Development
     - subtitle: Tools
       text:
         - line: Sketch

@@ -22,7 +22,7 @@ details:
     - subtitle: Role
       text:
         - line: UI/UX Design
-        - line: Front-end Development
+        - line: Frontend Development
     - subtitle: Tools
       text:
         - line: Adobe Illustrator
