@@ -6,7 +6,7 @@ tag: about
 fb_title: Ângela Coelho | Portfolio
 fb_description: Design + Programming
 fb_img: profile.png
-bio: I’m Ângela Coelho, a digital designer with a special interest in web development and generative design. I graduated in Design and Multimedia in the end of 2016 at the University of Coimbra in Portugal. During my five years of study, I was able to try different things, so the main focus of my explorations relied on the role of design in the technological world and how code can influence and shape the design process. In the last few years, I’ve been working as a web designer and now I continue to explore the area of experimental digital design. My goal is to keep exploring my two main areas of interest — design and programming —, in order to find new points of connection between these fields as well as taking advantage of each one of them so I can improve my skills and develop  ways to solve design problems.
+bio: I’m Ângela Coelho, a digital designer and frontend developer with a special interest in web development and generative design. I studied Design and Multimedia for five years at the University of Coimbra in Portugal and I’ve been working as a frontend for the past few years. During this time, the main focus of my explorations relied on the role of design in the technological world and how code can influence and shape the design process. I enjoy mostly to create beautiful visuals, interactions and animations. My goal is to keep exploring my two main areas of interest — design and programming —, in order to find new points of connection between these fields as well as taking advantage of each one of them so I can improve my skills and develop ways to solve design and code problems.
 img: profile.png
 experience:
   tag: experience
