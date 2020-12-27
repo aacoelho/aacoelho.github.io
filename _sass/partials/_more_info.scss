@@ -1,5 +1,4 @@
 @include breakpoint($b_initial) {
-
   .moreInfo {
     display: flex;
     flex-wrap: wrap;
@@ -11,14 +10,12 @@
       height: fit-content;
     }
 
-    &_group-tools, &_group-details {
-
+    &_group-tools,
+    &_group-details {
       .moreInfo_item {
-
         &_list {
-
           li {
-            &:before{
+            &:before {
               content: "—";
             }
           }
@@ -27,22 +24,19 @@
     }
 
     &_group-references {
-
       .moreInfo_item {
-
         &_list {
           width: 100%;
           flex: auto;
         }
 
         &_link {
-          margin-top: calc(#{$d_scale_s}/2);
+          margin-top: calc(#{$d_scale_s}/ 2);
         }
       }
     }
 
     &_group-website {
-
       .moreInfo_item {
         margin-top: 0px;
       }
@@ -71,9 +65,7 @@
 }
 
 @include breakpoint($b_medium) {
-
   .moreInfo {
-
     &_group {
       //width: calc(50% - calc(#{$d_scale_s}/2));
       width: calc(50% - 10px);
@@ -87,16 +79,19 @@
       order: 2;
     }
 
-    &_group-website {
+    &_group-awards {
       order: 3;
+      margin-right: 50%;
+    }
+
+    &_group-website {
+      order: 4;
     }
   }
 }
 
 @include breakpoint($b_transition) {
-
   .moreInfo {
-
     &_group {
       //width: calc(50% - calc(#{$d_scale_m}/2));
       width: calc(50% - 25px);
@@ -104,28 +99,24 @@
     }
 
     &_group-references {
-
       .moreInfo_item {
-
         &_link {
-          margin-top: calc(#{$d_scale_m}/4);
+          margin-top: calc(#{$d_scale_m}/ 4);
         }
       }
     }
 
     &_item {
-      margin-top: calc(#{$d_scale_m}/2);
+      margin-top: calc(#{$d_scale_m}/ 2);
 
       &_subtitle {
         flex: 1;
         margin-right: $d_scale_m;
-
       }
 
       &_list {
         flex: 3;
       }
     }
-
   }
 }

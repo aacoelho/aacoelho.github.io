@@ -3,29 +3,26 @@ layout: default
 ---
 
 <div class="info">
-  <p class="info_description f_textBig">
-    {{ page.bio }}
-  </p>
+  <p class="info_description f_textBig">{{ page.bio }}</p>
   {% assign img_path = "/assets/" | append: page.img %}
-  <img src="{{ img_path | relative_url }}" alt="profile" class="info_image">
+  <img src="{{ img_path | relative_url }}" alt="profile" class="info_image" />
 </div>
 
 <div class="moreInfo">
-  {% assign group = page.experience %}
-  {% include info_group.html %}
-
-  {% assign group = page.events %}
-  {% include info_group.html %}
-
-  {% assign group = page.tools %}
+  {% assign group = page.experience %} {% include info_group.html %} {% assign
+  group = page.events %} {% include info_group.html %} {% assign group =
+  page.awards %} {% include info_group.html %} {% assign group = page.tools %}
   {% include info_group.html %}
 
   <div class="moreInfo_group moreInfo_group-link">
-    <a href="/assets/cv_angelacoelho.pdf" class="f_textNormal f_textNormal-link" download>
+    <a
+      href="/assets/cv_angelacoelho.pdf"
+      class="f_textNormal f_textNormal-link"
+      download
+    >
       Download full resume
     </a>
   </div>
 
-  {% assign group = page.website %}
-  {% include info_group.html %}
+  {% assign group = page.website %} {% include info_group.html %}
 </div>

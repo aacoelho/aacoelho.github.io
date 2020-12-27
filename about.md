@@ -80,6 +80,13 @@ tools:
         - line: Javascript/jQuery
         - line: Adobe After Effects
         - line: Max/MSP
+awards:
+  tag: awards
+  title: Awards
+  item:
+    - subtitle: 08 Aug 2018
+      text:
+        - line: CSS Winner Star Award
 website:
   tag: website
   item:
