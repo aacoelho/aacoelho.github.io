@@ -20,6 +20,12 @@ Portfolio.
 - [Script to set up macOS for Ruby development](https://www.moncefbelyamani.com/ruby-script/)
 - [Laptop](https://github.com/monfresh/laptop)
 
+### Setup
+
+- `bundle install` - install dependencies
+- `bundle update` - update dependencies
+- `bundle exec jekyll serve` - run project
+
 ### URLs
 
 - [localhost:4000](http://localhost:4000/)
