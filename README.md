@@ -4,7 +4,9 @@ Portfolio.
 
 ## Requirements
 
-- Ruby
+- nvm
+- node
+- Ruby manager (rbenv)
 - RubyGems
 - Jekyll gem
 - Bundler gem
@@ -19,8 +21,21 @@ Portfolio.
 - [How to fix "command not found" after installing gems](https://www.moncefbelyamani.com/troubleshooting-command-not-found-in-the-terminal/)
 - [Script to set up macOS for Ruby development](https://www.moncefbelyamani.com/ruby-script/)
 - [Laptop](https://github.com/monfresh/laptop)
+- [Ruby manager: rbenv](https://github.com/rbenv/rbenv)
+- [nvm and node](https://tecadmin.net/install-nvm-macos-with-homebrew/)
 
 ### Setup
+
+If ruby manager and gems not installed:
+
+- Setup ruby manager:
+  - `brew install rbenv` - install ruby manager
+  - `rbenv init` - follow printed instructions
+- Setup ruby and gems on project:
+  - `rbenv local VERSION_NUMBER` - sets local ruby version on project directory
+  - `gem install jekyll bundler` - install the jekyll and bundler gems
+
+After ruby manager and gems installed:
 
 - `bundle install` - install dependencies
 - `bundle update` - update dependencies
