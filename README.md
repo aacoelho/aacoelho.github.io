@@ -22,7 +22,7 @@ Portfolio.
 - [Script to set up macOS for Ruby development](https://www.moncefbelyamani.com/ruby-script/)
 - [Laptop](https://github.com/monfresh/laptop)
 - [Ruby manager: rbenv](https://github.com/rbenv/rbenv)
-- [nvm and node](https://tecadmin.net/install-nvm-macos-with-homebrew/)
+- [Install nvm](https://tecadmin.net/install-nvm-macos-with-homebrew/)
 
 ### Setup
 
