@@ -6,7 +6,7 @@ tag: about
 fb_title: Ângela Coelho | Portfolio
 fb_description: Design + Programming
 fb_img: profile.png
-bio: I’m Ângela Coelho, a digital designer and frontend developer with a special interest in web development and generative design. I studied Design and Multimedia for five years at the University of Coimbra in Portugal and I’ve been working as a frontend for the past few years. During this time, the main focus of my explorations relied on the role of design in the technological world and how code can influence and shape the design process. I enjoy most to create beautiful visuals, interactions and animations. My goal is to keep exploring my two main areas of interest — design and programming —, in order to find new points of connection between these fields as well as taking advantage of each one of them so I can improve my skills and develop ways to solve design and code problems.
+bio: I’m Ângela Coelho, a digital designer and frontend developer with a special interest in web development and generative design. I studied Design and Multimedia for five years at the University of Coimbra in Portugal and I’ve been working as a frontend developer for the past few years. During this time, the main focus of my explorations relied on the role of design in the technological world and how code can influence and shape the design process. I enjoy most to create beautiful visuals, interactions and animations. My goal is to keep exploring my two main areas of interest — design and programming —, in order to find new points of connection between these fields as well as taking advantage of each one of them so I can improve my skills and develop ways to solve design and code problems.
 img: profile.png
 experience:
   tag: experience
@@ -70,15 +70,16 @@ tools:
   item:
     - subtitle: ""
       text:
-        - line: Sketch
+        - line: HTML
+        - line: CSS
+        - line: Javascript
+        - line: React
         - line: Processing
+        - line: Figma
+        - line: Sketch
         - line: Adobe Indesign
         - line: Adobe Illustrator
         - line: Adobe Photoshop
-        - line: HTML
-        - line: CSS/SASS
-        - line: Javascript/jQuery
-        - line: Adobe After Effects
         - line: Max/MSP
 awards:
   tag: awards
