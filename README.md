@@ -24,13 +24,19 @@ Portfolio.
 
 - `bundle install` - install dependencies
 - `bundle update` - update dependencies
+- `bundle exec jekyll serve` - build the site and make it available on a local server
+
+### Launch
+
 - `bundle exec jekyll serve` - run project
 
 ### URLs
 
-- [localhost:4000](http://localhost:4000/)
+- Website at [localhost:4000](http://localhost:4000/)
 
 ## Deployment
+
+When we push to the master git branch, website is automatically deployed to production.
 
 - `master` - deploy branch
 
