@@ -46,7 +46,7 @@ events:
   tag: events
   title: Events
   item:
-    - subtitle: May - Sep 2021
+    - subtitle: May 2021
       text:
         - line: Exposição Livro Transformado
         - line: Coimbra - Portugal
