@@ -46,6 +46,10 @@ events:
   tag: events
   title: Events
   item:
+    - subtitle: May - Sep 2021
+      text:
+        - line: Exposição Livro Transformado
+        - line: Coimbra - Portugal
     - subtitle: Apr 2018
       text:
         - line: Ciclo de Conversas Design+Multimédia
