@@ -1,0 +1,44 @@
+---
+layout: post
+tag: "post"
+permalink: /:title
+fb_title: Ângela Coelho - HYP
+fb_description: Frontend Development
+fb_img:
+index: 0
+title: "MJF Swipe"
+type: "Frontend Development"
+description: ​<a class='f_textBig-link' target='_blank' href='https://www.montreuxjazzfestival.com/en/'>Montreux Jazz Festival​</a>
+img: "avatar_hyp.gif"
+gallery:
+  - img: "1_hyp_home.gif"
+    caption: ""
+  - img: "2_hyp_projects.png"
+    caption: ""
+  - img: "3_hyp_steps.gif"
+    caption: ""
+  - img: "4_hyp_pops.gif"
+    caption: ""
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: Frontend Development
+        - line: Interactive animations
+        - line: Microinteractions
+    - subtitle: Tools
+      text:
+        - line: Vue.js
+        - line: HTML
+        - line: SASS
+        - line: GSAP
+references:
+  tag: references
+  title: Additional information
+  item:
+    - text:
+        - line: "Awwwards: Site of the Day"
+      link: https://www.awwwards.com/sites/montreux-jazz-festival-swipe
+---

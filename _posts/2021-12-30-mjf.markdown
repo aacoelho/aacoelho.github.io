@@ -1,0 +1,41 @@
+---
+layout: post
+tag: "post"
+permalink: /:title
+fb_title: Ângela Coelho - Montreux Jazz Festival
+fb_description: Frontend Development
+fb_img:
+index: 2
+title: "Montreux Jazz Festival"
+type: "Frontend Development"
+description: ​<a class='f_textBig-link' target='_blank' href='https://www.montreuxjazzfestival.com/en/'>Montreux Jazz Festival​</a>
+img: "avatar_hyp.gif"
+link: "https://www.montreuxjazzfestival.com/en/"
+gallery:
+  - img: "1_hyp_home.gif"
+    caption: ""
+  - img: "2_hyp_projects.png"
+    caption: ""
+  - img: "3_hyp_steps.gif"
+    caption: ""
+  - img: "4_hyp_pops.gif"
+    caption: ""
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: Frontend Development
+        - line: Interactive animations
+        - line: Page Transitions
+    - subtitle: Tools
+      text:
+        - line: JavaScript
+        - line: Twig
+        - line: HTML
+        - line: SASS
+        - line: GSAP
+        - line: Swup
+        - line: Fractal
+---

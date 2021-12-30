@@ -5,8 +5,8 @@ permalink: /:title
 fb_title: Ângela Coelho - Poetry as sound
 fb_description: Sonification
 fb_img: avatar_poetry.gif
-index: 0
-title:  "Poetry as sound"
+index: 3
+title: "Poetry as sound"
 type: "Sonification"
 description: "Master thesis project in the field of Musical Sonification which consists of an application that maps the poem <i>Os Lusíadas</i> by Luís de Camões into sounds. The application presents two main features: the sound that gives the information of the poem and a visual component that works as a label. The main goal was to create a new approach to analyse poetry - in this case <i>Os Lusíadas</i> - through sound that reflects its structure, story and rhyme characteristics. The development of this project implied  some research on  the Sonification field, the analysis of the poem and the construction of the application, from the graphical approach to the programing development. It was also created a physical artefact that documented the process and the results obtained after research."
 img: "avatar_poetry.gif"
