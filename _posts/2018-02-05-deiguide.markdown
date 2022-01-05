@@ -12,16 +12,22 @@ description: Creation of a proposal for the wayfinding system of the Department 
 img: "avatar_deiguide.gif"
 gallery:
   - img: "1_deiguide_shapes.png"
+    alt: "Logo"
     caption: ""
   - img: "2_deiguide_profs.gif"
+    alt: "Teachers offices"
     caption: ""
   - img: "3_deiguide_services.png"
+    alt: "Services list"
     caption: ""
   - img: "4_deiguide_map.png"
+    alt: "DEI map"
     caption: ""
   - img: "5_deiguide_rooms.gif"
+    alt: "Rooms table"
     caption: ""
   - img: "6_deiguide_screen.png"
+    alt: "Screen in real life"
     caption: ""
 details:
   tag: details

@@ -7,18 +7,22 @@ fb_description: UI/UX Design + Development
 fb_img: avatar_hyp.gif
 index: 4
 title: "HYP"
-type: "UI/UX design + Development"
-description: Redesign of the ​<a class='f_textBig-link' target='_blank' href='https://hyp.pt/'>HYP​</a> website, a company which develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. A new approach of the application of the brand already existent was created, the goal being to create a more light and interactive experience between the user and the brand. The website starts with an introduction to the company, its team, methodologies and projects. Each section has a single page where it is explained in further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients.
+type: "UI/UX design + Frontend Development"
+description: Redesign of the ​<a class='f_textBig-link' target='_blank' href='https://hyp.pt/'>HYP​</a> website, a company which develops projects in the areas of graphic design, UI/UX design, and also web and app development. The goal was to create a new website that presented the information to the user in a way that reflects the company brand and their work spirit. A new approach of the application of the brand already existent was created, the goal being to create a more light and interactive experience between the user and the brand. The website starts with an introduction to the company, its team, methodologies and projects. Each section has a single page where it is explained in further detail each section of interest, always in an informal way that reflects how the company works and deals with their projects and clients. Project developed while working with ​<a class='f_textBig-link' target='_blank' href='https://hyp.pt/'>HYP​</a>.
 img: "avatar_hyp.gif"
 link: "https://hyp.pt/"
 gallery:
   - img: "1_hyp_home.gif"
+    alt: "Homepage intro"
     caption: ""
   - img: "2_hyp_projects.png"
+    alt: "Projects page"
     caption: ""
   - img: "3_hyp_steps.gif"
+    alt: "Work process"
     caption: ""
   - img: "4_hyp_pops.gif"
+    alt: "Team pictures"
     caption: ""
 details:
   tag: details
