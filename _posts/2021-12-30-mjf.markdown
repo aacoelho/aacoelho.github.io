@@ -8,17 +8,21 @@ fb_img:
 index: 2
 title: "Montreux Jazz Festival"
 type: "Frontend Development"
-description: ​<a class='f_textBig-link' target='_blank' href='https://www.montreuxjazzfestival.com/en/'>Montreux Jazz Festival​</a>
-img: "avatar_hyp.gif"
+description: ​Creation of the new website of the <a class='f_textBig-link' target='_blank' href='https://www.montreuxjazzfestival.com/en/'>Montreux Jazz Festival​</a>. This website not only has the purpose to offer the latest news and line-up of this music festival, but it is also an archive of the previous editions. My role was to develop the frontend of various components, create the different page transitions, and develop other element's interactions like the page header animation and the menu transition. Project developed while working with <a class='f_textBig-link' target='_blank' href='https://superhuit.ch/en/'>Superhuit​</a>.
+img: "avatar_mjf.png"
 link: "https://www.montreuxjazzfestival.com/en/"
 gallery:
-  - img: "1_hyp_home.gif"
+  - img: "1_mjf_transition.gif"
+    alt: "Homepage transition"
     caption: ""
-  - img: "2_hyp_projects.png"
+  - img: "2_mjf_homepage.png"
+    alt: "Homepage screen"
     caption: ""
-  - img: "3_hyp_steps.gif"
+  - img: "3_mjf_festival.png"
+    alt: "Festival page"
     caption: ""
-  - img: "4_hyp_pops.gif"
+  - img: "4_mjf_menu.gif"
+    alt: "Menu animation"
     caption: ""
 details:
   tag: details
@@ -27,7 +31,8 @@ details:
     - subtitle: Role
       text:
         - line: Frontend Development
-        - line: Interactive animations
+        - line: Interactive Animations
+        - line: Microanimations
         - line: Page Transitions
     - subtitle: Tools
       text:
