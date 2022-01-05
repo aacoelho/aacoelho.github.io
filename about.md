@@ -74,11 +74,14 @@ tools:
   item:
     - subtitle: ""
       text:
-        - line: HTML
-        - line: CSS
+        - line: HTML5
+        - line: CSS3
+        - line: SASS
         - line: Javascript
         - line: React
+        - line: CSS-in-JS
         - line: Processing
+        - line: Three.js
         - line: Figma
         - line: Sketch
         - line: Adobe Indesign
