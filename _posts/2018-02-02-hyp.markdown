@@ -3,7 +3,7 @@ layout: post
 tag: "post"
 permalink: /:title
 fb_title: Ângela Coelho - HYP
-fb_description: UI/UX Design + Development
+fb_description: UI/UX Design + Frontend Development
 fb_img: avatar_hyp.gif
 index: 4
 title: "HYP"

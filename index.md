@@ -6,6 +6,6 @@ layout: home
 title: Home
 tag: home
 fb_title: Ângela Coelho | Portfolio
-fb_description: Design + Programming
+fb_description: Programming + Design
 fb_img: fb_img.png
 ---

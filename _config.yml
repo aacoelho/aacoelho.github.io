@@ -18,7 +18,7 @@ author: Ângela Coelho
 keywords: angela, coelho, multimedia, designer, print, programming, frontend, developer, portfolio
 email: angacoelho@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Design + Programming
+  Programming + Design
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://angelacoelho.com" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
@@ -27,7 +27,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-autoprefixer
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

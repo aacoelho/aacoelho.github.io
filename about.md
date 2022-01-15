@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 tag: about
 fb_title: Ângela Coelho | Portfolio
-fb_description: Design + Programming
+fb_description: Programming + Design
 fb_img: profile.png
-bio: I’m Ângela Coelho, a digital designer and frontend developer with a special interest in web development, creative coding, and generative design. I studied Design and Multimedia for five years at the University of Coimbra in Portugal and I’ve been working as a frontend developer for the past few years. During this time, the main focus of my explorations relied on the role of design in the technological world and how code can influence and shape the design process. I enjoy most creating beautiful visuals, interactions, and animations. My goal is to keep exploring my two main areas of interest — design and programming —, in order to find new points of connection between these fields as well as take advantage of each one of them so I can improve my skills and develop ways to solve design and code problems.
+bio: I’m Ângela Coelho, a frontend developer and digital designer with a special interest in web development, creative coding, and generative design. I studied Design and Multimedia for five years at the University of Coimbra in Portugal and I’ve been working as a frontend developer for the past few years. During this time, the main focus of my explorations relied on the role of design in the technological world and how code can create meaningful and astonishing experiences. I enjoy most building immersive audio and visual experiences with appealing visuals, interactions, and animations. My goal is to keep exploring my two main areas of interest — programming and design —, to find new points of connection and take advantage of each one of them in the field of creative coding.
 img: profile.png
 experience:
   tag: experience
@@ -77,9 +77,12 @@ tools:
         - line: HTML5
         - line: CSS3
         - line: SASS
-        - line: Javascript
+        - line: JavaScript
         - line: React
         - line: CSS-in-JS
+        - line: GSAP
+        - line: TypeScript
+        - line: Next.js
         - line: Processing
         - line: Three.js
         - line: Figma
