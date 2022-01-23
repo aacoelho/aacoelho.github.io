@@ -17,9 +17,14 @@ experience:
         - line: Frontend Developer
         - line: Superhuit
         - line: Porto - Portugal
+    - subtitle: Jul 2019 > Present
+      text:
+        - line: Volunteer (Collaborator & Designer)
+        - line: HeForShe Porto
+        - line: Porto - Portugal
     - subtitle: Oct 2016 > Dec 2018
       text:
-        - line: Web Designer
+        - line: Digital Designer & Frontend Developer
         - line: HYP - IPN
         - line: Coimbra - Portugal
     - subtitle: Sep 2017 > Jul 2018
@@ -37,11 +42,6 @@ experience:
         - line: Internship in Communication and Image
         - line: Escolíadas Association
         - line: Mealhada – Portugal
-    - subtitle: Nov 2012 > Nov 2013
-      text:
-        - line: Collaborator in Design Department
-        - line: Coimbra Students Association
-        - line: Coimbra – Portugal
 events:
   tag: events
   title: Events
