@@ -17,7 +17,7 @@ experience:
         - line: Frontend Developer
         - line: Superhuit
         - line: Porto - Portugal
-    - subtitle: Jul 2019 > Present
+    - subtitle: Jul 2019 > Feb 2022
       text:
         - line: Volunteer (Collaborator & Designer)
         - line: HeForShe Porto
