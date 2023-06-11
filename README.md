@@ -31,15 +31,18 @@ If ruby manager and gems not installed:
 - Setup ruby manager:
   - `brew install rbenv` - install ruby manager
   - `rbenv init` - follow printed instructions
+  - Install latest stable version
+    - At the moment it's working with 3.2.0
 - Setup ruby and gems on project:
   - `rbenv local VERSION_NUMBER` - sets local ruby version on project directory
-  - `gem install jekyll bundler` - install the jekyll and bundler gems
+  - `gem install jekyll bundler` - install the jekyll and bundler gems (use sudo if needed)
 
 After ruby manager and gems installed:
 
 - `bundle install` - install dependencies
 - `bundle update` - update dependencies
 - `bundle exec jekyll serve` - build the site and make it available on a local server
+  - If it doesn't work try to comment jekyll-autoprefixer inside `_config.yml` file
 
 ### Launch
 
