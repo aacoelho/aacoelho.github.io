@@ -12,7 +12,12 @@ experience:
   tag: experience
   title: Experience
   item:
-    - subtitle: Jan 2019 > Present
+    - subtitle: Jan 2023 > Present
+      text:
+        - line: Creative Frontend Developer
+        - line: pr.co
+        - line: Coimbra – Portugal • Remote
+    - subtitle: Jan 2019 > Dec 2022
       text:
         - line: Frontend Developer
         - line: Superhuit
