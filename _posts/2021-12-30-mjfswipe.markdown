@@ -2,7 +2,7 @@
 layout: post
 tag: "post"
 permalink: /:title
-fb_title: Ângela Coelho - HYP
+fb_title: Ângela Coelho - MJF Swipe
 fb_description: Frontend Development
 fb_img:
 index: 0
