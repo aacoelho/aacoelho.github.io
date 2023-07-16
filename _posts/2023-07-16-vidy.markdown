@@ -1,0 +1,51 @@
+---
+layout: post
+tag: "post"
+permalink: /:title
+fb_title: Ângela Coelho - Théâtre de Vidy
+fb_description: Frontend Development
+fb_img:
+index: 0
+title: "Théâtre de Vidy"
+type: "Frontend Development"
+description: ​Audio-visual experience to launch the 2019 Montreux Jazz Festival line-up. The project consists of a stack of cards, where each card presents an affirmation that the user has to agree or disagree with, which at the end generates a custom program according to the user's previous choices. My role was essentially to develop the cards page and the different interactions with the stack of cards, like the transition between cards, and the interactions controlled by the mouse, touch, and keyboard. Project developed while working with <a class='f_textBig-link' target='_blank' href='https://superhuit.ch/en/'>Superhuit​</a> creative agency.
+img: "avatar_mjfswipe.png"
+gallery:
+  - img: "1_mjfswipe_card.gif"
+    alt: "Card animation"
+    caption: ""
+  - img: "2_mjfswipe_screen.png"
+    alt: "Card page"
+    caption: ""
+  - img: "3_mjfswipe_swipe.gif"
+    alt: "Card swipe"
+    caption: ""
+  - img: "4_mjfswipe_programme.png"
+    alt: "Program page"
+    caption: ""
+  - img: "5_mjfswipe_mobile.gif"
+    alt: "Mobile screens"
+    caption: ""
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: Frontend Development
+        - line: Interactive Animations
+        - line: Microanimations
+    - subtitle: Tools
+      text:
+        - line: Vue.js
+        - line: HTML
+        - line: SASS
+        - line: GSAP
+references:
+  tag: references
+  title: Additional information
+  item:
+    - text:
+        - line: "Awwwards: Site of the Day"
+      link: https://www.awwwards.com/sites/montreux-jazz-festival-swipe
+---
