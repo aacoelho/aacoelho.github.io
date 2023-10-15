@@ -79,8 +79,8 @@ tools:
   item:
     - subtitle: ""
       text:
-        - line: HTML5
-        - line: CSS3
+        - line: HTML
+        - line: CSS
         - line: SASS
         - line: JavaScript
         - line: React
