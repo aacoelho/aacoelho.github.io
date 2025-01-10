@@ -6,7 +6,7 @@ tag: about
 fb_title: Ângela Coelho | Portfolio
 fb_description: Frontend crafted with design focus
 fb_img: profile.png
-bio: I'm Ângela Coelho, a frontend developer with a focus on web and product development. I studied Design and Multimedia for five years at the University of Coimbra in Portugal, and I've been working as a frontend developer for the past few years. During this time, I always aim to bring a unique blend of creativity and technical expertise to my work. I thrive on bridging the gap between design and code, creating meaningful experiences that influence and shape the way we perceive and interact with information. Over the past few months, I have been working for a product company, where I actively contribute to creating engaging and intuitive digital experiences. My goals are to expand my knowledge in the field of frontend development and product development and to contribute with my skills to build innovative products that make a difference.
+bio: I'm Ângela Coelho, a frontend developer with a focus on web and product development. I studied Design and Multimedia for five years at the University of Coimbra in Portugal, and I've been working as a frontend developer for the past few years. During this time, I always aim to bring a unique blend of creativity and technical expertise to my work. I thrive on bridging the gap between design and code, creating meaningful experiences that influence and shape the way we perceive and interact with information. Over the past two years, I have been working for a product company, where I actively contribute to creating engaging and intuitive digital experiences. My goals are to expand my knowledge in the field of frontend development and product development and to contribute with my skills to build innovative products that make a difference.
 img: profile.png
 experience:
   tag: experience
@@ -94,6 +94,7 @@ tools:
         - line: Three.js
         - line: jQuery
         - line: Ruby on Rails
+        - line: Git
         - line: Storybook
         - line: Figma
 awards:
