@@ -47,9 +47,9 @@ scripts/visual-diff.mjs Visual regression check
 
 ## Adding or editing a project
 
-1. Create `src/content/projects/<slug>.md`. The file name becomes the URL (`/<slug>`).
+1. Copy [`src/content/projects/project-template.md`](src/content/projects/project-template.md) to `src/content/projects/<slug>.md`. The file name becomes the URL (`/<slug>`). The template explains every field.
 2. Put its gallery images in `public/assets/projects/<slug>/` and its avatar in `public/assets/`.
-3. Fill in the front matter (copy an existing project as a starting point):
+3. Replace the placeholders and set `draft: false` to publish. Key fields:
    - `index`: position on the home page; also decides the "See next project" order. Published projects should use consecutive numbers starting at 0.
    - `draft: true` hides the project everywhere.
    - `description`, `type`, captions and detail lines can contain HTML (links, `<i>`).
