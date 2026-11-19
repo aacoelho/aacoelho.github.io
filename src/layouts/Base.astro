@@ -1,0 +1,62 @@
+---
+/** Former _layouts/default.html */
+import "../styles/main.scss";
+import Head from "../components/Head.astro";
+import Scripts from "../components/Scripts.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { site } from "../data/site";
+
+interface Props {
+  /** Page title (shown in .container_head, used for the active nav link) */
+  title: string;
+  /** Used for the `container-{tag}` class */
+  tag: string;
+  /** Project type shown under the title */
+  type?: string | null;
+  isHome?: boolean;
+  path: string;
+  fbTitle?: string | null;
+  fbDescription?: string | null;
+  fbImg?: string | null;
+  nextProject?: { title: string; url: string };
+}
+
+const { title, tag, type, isHome = false, path, fbTitle, fbDescription, fbImg, nextProject } = Astro.props;
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <Head path={path} fbTitle={fbTitle} fbDescription={fbDescription} ogImage={`/assets/${fbImg ?? ""}`} />
+  </head>
+
+  <body class="noScroll">
+    <div class="loading">
+      <p class="loading_text f_displaySection">Loading ...</p>
+    </div>
+
+    <div class="main">
+      <div class="skewEffect">
+        <Header pageTitle={title} />
+
+        <section class={`container container-${tag} section-skew`}>
+          {
+            !isHome && (
+              <div class="container_head">
+                <h1 class="container_head_title f_displaySection">{title}</h1>
+                {type && <p class="container_head_type f_textExtra" set:html={type} />}
+              </div>
+            )
+          }
+
+          <slot />
+        </section>
+
+        <Footer nextProject={nextProject} />
+      </div>
+    </div>
+
+    <Scripts />
+  </body>
+</html>

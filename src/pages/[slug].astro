@@ -1,0 +1,58 @@
+---
+/** Former _layouts/post.html: one page per published project, at /<slug> */
+import Base from "../layouts/Base.astro";
+import GalleryItem from "../components/GalleryItem";
+import InfoGroup from "../components/InfoGroup";
+import { getProjects, nextProject, projectUrl, type Project } from "../lib/projects";
+
+export async function getStaticPaths() {
+  const projects = await getProjects();
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project, next: nextProject(projects, project) },
+  }));
+}
+
+interface Props {
+  project: Project;
+  next?: { title: string; url: string };
+}
+
+const { project, next } = Astro.props;
+const p = project.data;
+---
+
+<Base
+  title={p.title}
+  tag="post"
+  type={p.type}
+  path={projectUrl(project)}
+  fbTitle={p.fb_title}
+  fbDescription={p.fb_description}
+  fbImg={p.fb_img}
+  nextProject={next}
+>
+  <div class="info">
+    <p class="info_description f_textBig" set:html={p.description} />
+  </div>
+
+  <div class="gallery sectionList">
+    {p.gallery.map((item) => <GalleryItem item={item} slug={project.id} />)}
+  </div>
+
+  <div class="moreInfo">
+    <InfoGroup group={p.details} />
+
+    {
+      p.link && (
+        <div class="moreInfo_group moreInfo_group-link">
+          <a target="_blank" class="moreInfo_group moreInfo_group-link f_textNormal f_textNormal-link" href={p.link}>
+            Visit Website
+          </a>
+        </div>
+      )
+    }
+
+    {p.references && <InfoGroup group={p.references} />}
+  </div>
+</Base>

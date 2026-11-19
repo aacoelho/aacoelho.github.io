@@ -1,0 +1,55 @@
+---
+/** Former _includes/head.html (meta tags) + _includes/google-analytics.html */
+import { site } from "../data/site";
+
+interface Props {
+  /** Page URL path, e.g. "/mjf"; used for og:url like Jekyll's `site.url | append: page.url` */
+  path: string;
+  fbTitle?: string | null;
+  fbDescription?: string | null;
+  /** og:image path; Jekyll appended `fb_img` to "/assets/" even when empty */
+  ogImage: string;
+}
+
+const { path, fbTitle, fbDescription, ogImage } = Astro.props;
+const isProd = import.meta.env.PROD;
+---
+
+<meta charset="utf-8" />
+<title>{site.title}</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content={site.description} />
+<meta name="keywords" content={site.keywords} />
+<meta name="author" content={site.author} />
+
+<!-- Facebook Metatags -->
+<meta property="og:url" content={`${site.url}${path}`} />
+<meta property="og:type" content="website" />
+<meta property="og:description" content={fbDescription ?? ""} />
+<meta property="og:title" content={fbTitle ?? ""} />
+<meta property="og:image" content={`${site.url}${ogImage}`} />
+
+<!-- Twitter Metatags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content={site.twitter} />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link type="application/atom+xml" rel="alternate" href={`${site.url}/feed.xml`} title={site.title} />
+{
+  isProd && (
+    <>
+      <!-- Global site tag (gtag.js) - Google Analytics (Universal Analytics: no longer collects data, see README) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116536084-1" is:inline></script>
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-116536084-1");
+      </script>
+    </>
+  )
+}

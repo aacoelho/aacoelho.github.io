@@ -1,64 +1,75 @@
 # aacoelho.github.io
 
-Portfolio.
+Portfolio of Ângela Coelho, live at [angelacoelho.com](https://angelacoelho.com/).
+
+Built with [Astro](https://astro.build) and React. The site is fully static: React components are rendered to HTML at build time, so no React code is sent to the browser.
 
 ## Requirements
 
-- nvm
-- node
-- Ruby manager (rbenv)
-- RubyGems
-- Jekyll gem
-- Bundler gem
+- [nvm](https://github.com/nvm-sh/nvm)
+- Node 22 (version in [.nvmrc](.nvmrc))
 
 ## Getting started
 
-### Useful Resources
+```bash
+nvm use            # switches to Node 22 for this folder only
+npm install        # install dependencies
+npm run dev        # dev server at http://localhost:4321
+```
 
-- [Jekyll](https://jekyllrb.com/docs/)
-- [Ruby/Gems](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma)
-- [The Definitive Guide To Installing Ruby Gems on a Mac](https://www.moncefbelyamani.com/the-definitive-guide-to-installing-ruby-gems-on-a-mac/)
-- [How to fix "command not found" after installing gems](https://www.moncefbelyamani.com/troubleshooting-command-not-found-in-the-terminal/)
-- [Script to set up macOS for Ruby development](https://www.moncefbelyamani.com/ruby-script/)
-- [Laptop](https://github.com/monfresh/laptop)
-- [Ruby manager: rbenv](https://github.com/rbenv/rbenv)
-- [Install nvm](https://tecadmin.net/install-nvm-macos-with-homebrew/)
+| Command | What it does |
+|---|---|
+| `npm run dev` | Local dev server with hot reload |
+| `npm run build` | Builds the static site into `dist/` |
+| `npm run preview` | Serves `dist/` locally (check the production build) |
+| `npm run check` | Type-checks `.astro`/`.ts`/`.tsx` files |
+| `npm run visual-diff` | Screenshots the live site and the local preview and compares them pixel by pixel (run `npm run build && npm run preview` first). Use `BASE=…` and `CANDIDATE=…` to compare other URLs |
 
-### Setup
+## Project structure
 
-If ruby manager and gems not installed:
+```
+public/                 Copied as-is to the site root
+  assets/               Images, fonts, cursors, CV (URLs stay /assets/…)
+  assets/projects/<slug>/  Gallery images for each project
+  js/main.js            Loader, page transitions, scroll skew (uses jQuery)
+  CNAME                 Custom domain
+src/
+  content/projects/     One Markdown file per project
+  content/pages/about.md  About page content
+  content.config.ts     Schema for the content above
+  data/site.ts          Site settings, social links, navigation
+  components/           React components (Header, Footer, GalleryItem, …) and head/script partials
+  layouts/              Base page layout and 404 layout
+  pages/                Routes: /, /about/, /<project>, /404.html, /feed.xml
+  styles/               SCSS (entry: main.scss)
+scripts/visual-diff.mjs Visual regression check
+```
 
-- Setup ruby manager:
-  - `brew install rbenv` - install ruby manager
-  - `rbenv init` - follow printed instructions
-  - Install latest stable version
-    - At the moment it's working with 3.2.0
-- Setup ruby and gems on project:
-  - `rbenv local VERSION_NUMBER` - sets local ruby version on project directory
-  - `gem install jekyll bundler` - install the jekyll and bundler gems (use sudo if needed)
+## Adding or editing a project
 
-After ruby manager and gems installed:
+1. Create `src/content/projects/<slug>.md`. The file name becomes the URL (`/<slug>`).
+2. Put its gallery images in `public/assets/projects/<slug>/` and its avatar in `public/assets/`.
+3. Fill in the front matter (copy an existing project as a starting point):
+   - `index`: position on the home page; also decides the "See next project" order. Published projects should use consecutive numbers starting at 0.
+   - `draft: true` hides the project everywhere.
+   - `description`, `type`, captions and detail lines can contain HTML (links, `<i>`).
+   - Gallery items use `img` (file name) or `src` (a Vimeo embed URL).
 
-- `bundle install` - install dependencies
-- `bundle update` - update dependencies
-- `bundle exec jekyll serve` - build the site and make it available on a local server
-  - If it doesn't work try to comment jekyll-autoprefixer inside `_config.yml` file
-
-### Launch
-
-- `bundle exec jekyll serve` - run project
-
-### URLs
-
-- Website at [localhost:4000](http://localhost:4000/)
+The build fails with a clear message if a field is missing or has the wrong type.
 
 ## Deployment
 
-When we push to the master git branch, website is automatically deployed to production.
+Pushing to `master` deploys the site. The [GitHub Actions workflow](.github/workflows/deploy.yml) builds it with Astro and publishes it to GitHub Pages.
 
-- `master` - deploy branch
+- In the repo, **Settings → Pages → Source** must be set to **GitHub Actions**.
+- Custom domain: `angelacoelho.com` (DNS at GoDaddy, pointing to GitHub Pages; the domain is verified on the GitHub account).
+- You can also trigger a deploy manually from the **Actions** tab (**Deploy to GitHub Pages → Run workflow**).
 
-### URLs
+## Future improvements
 
-- [aacoelho.github.io](aacoelho.github.io)
-- [angelacoelho.com](https://angelacoelho.com/)
+- Convert the GIFs to MP4/WebM video and optimise images (`astro:assets`, lazy loading).
+- Replace jQuery and `public/js/main.js` with a plain TypeScript module; consider Astro View Transitions for page fades.
+- Replace the Universal Analytics tag (`UA-…`, it stopped collecting data in 2023) with GA4 or a cookie-free alternative.
+- SEO: switch `site.url` to `https://`, fill empty `og:image`s, per-page titles, add a sitemap.
+- Fonts: keep only woff2, add `font-display: swap`, load Google Fonts with `<link>` instead of `@import`.
+- Once the SCSS moves off `@import`, remove `silenceDeprecations` in `astro.config.mjs`.

@@ -1,0 +1,49 @@
+---
+/** Former index.md + _layouts/home.html */
+import Base from "../layouts/Base.astro";
+import Arrow from "../components/Arrow";
+import ProjectAvatar from "../components/ProjectAvatar";
+import { site } from "../data/site";
+import { getProjects, projectUrl } from "../lib/projects";
+
+const projects = await getProjects();
+---
+
+<Base
+  title="Home"
+  tag="home"
+  isHome
+  path="/"
+  fbTitle="Ângela Coelho | Portfolio"
+  fbDescription="Frontend crafted with design focus"
+  fbImg="fb_img.png"
+>
+  <div class="landingSection">
+    <div class="landingSection_top">
+      <h1 class="landingSection_top_title f_displayExtra">Ângela</h1>
+      <h1 class="landingSection_top_title f_displayExtra">Coelho</h1>
+    </div>
+
+    <p class="landingSection_slogan f_textExtra">
+      {site.description}
+    </p>
+
+    <div class="landingSection_corner">
+      <Arrow />
+    </div>
+  </div>
+
+  {
+    projects.length > 0 && (
+      <div class="selectedWorks">
+        <h2 class="selectedWorks_title f_displaySection">Selected projects:</h2>
+
+        <div class="selectedWorks_list sectionList">
+          {projects.map((p) => (
+            <ProjectAvatar url={projectUrl(p)} title={p.data.title} img={p.data.img} type={p.data.type} />
+          ))}
+        </div>
+      </div>
+    )
+  }
+</Base>

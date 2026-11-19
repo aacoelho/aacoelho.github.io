@@ -1,0 +1,23 @@
+---
+/** Scripts loaded at the end of the page, as in the old footer.html / 404 layout. Kept identical on purpose (jQuery + main.js). */
+const cacheBust = Date.now();
+---
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" is:inline></script>
+<script type="text/javascript" src={`/js/main.js?${cacheBust}`} async is:inline></script>
+
+<noscript>
+  <style media="screen" is:inline>
+    .loading {
+      display: none;
+    }
+
+    .noScroll {
+      overflow: visible;
+    }
+
+    .main {
+      opacity: 1 !important;
+    }
+  </style>
+</noscript>
