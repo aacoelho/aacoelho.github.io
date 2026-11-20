@@ -1,0 +1,56 @@
+---
+date: 2018-02-03
+draft: true
+layout: post
+tag: "post"
+permalink: /:title
+fb_title: Ângela Coelho - ENED
+fb_description: Graphic design
+fb_img: avatar_ened.png
+index: 7
+title: "ENED"
+type: "Graphic design"
+description: Creation of the image of the 5th Design Students National Meeting (ENED) in Coimbra, Portugal. This meeting brings together design students of different fields during five days full of activities which comprise the main areas of interest in this area. Since this is an event that combines many fields and subjects related to design, the idea was to overcome these differences by creating an identity that connected all the areas of design. The identity, which was created by a group of students and graduates, implied the construction of all the graphic material, merchandising, social media and promotional content.
+img: "avatar_ened.png"
+gallery:
+  - img: "1_ened_logo.png"
+    alt: "ENED logo"
+    caption: ""
+  - img: "2_ened_poster.png"
+    alt: "Poster 1"
+    caption: ""
+  - img: "3_ened_roadshow.png"
+    alt: "Roadshow"
+    caption: ""
+  - src: "https://player.vimeo.com/video/157802606?byline=0&portrait=0"
+    alt: "Promo video"
+    caption: ""
+  - img: "5_ened_poster.png"
+    alt: "Poster 2"
+    caption: ""
+  - img: "6_ened_credencial.png"
+    alt: "Credencial"
+    caption: ""
+  - img: "7_ened_program.png"
+    alt: "Program"
+    caption: ""
+  - img: "8_ened_merchandising.png"
+    alt: "Merchandising"
+    caption: ""
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: Concept Creation
+        - line: Graphic Design
+        - line: Editorial Design
+        - line: Video Edition
+    - subtitle: Tools
+      text:
+        - line: Adobe Indesign
+        - line: Adobe Illustrator
+        - line: Adobe Photoshop
+        - line: Adobe Premiere
+---

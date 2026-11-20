@@ -1,0 +1,31 @@
+---
+date: 2018-02-05
+draft: true
+layout: post
+tag: "post"
+permalink: /:title
+index: 4
+title:  "Lalaoke"
+type: "UI/UX Design"
+description: Mobile game conceived and developed by HYP, which consists in guessing a song hummed by another player. A player can challenge another player or friend, select from a pack of songs a song to hum and send their creation to be guessed by their opponent. A player earns points if their creation is correctly guessed or if they guess the song of another player correctly. The idea for the design of the application was to incorporate the illustrations already made and create fluid and light screens for the game.
+img: "periferia.png"
+gallery:
+  - img: ""
+    caption: ""
+  - img: ""
+    caption: ""
+  - img: ""
+    caption: ""
+  - img: ""
+    caption: ""
+details:
+  tag: details
+  title: Details
+  item:
+    - subtitle: Role
+      text:
+        - line: UI/UX Design
+    - subtitle: Tools
+      text:
+        - line: Sketch
+---

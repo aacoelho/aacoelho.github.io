@@ -1,0 +1,37 @@
+---
+/** Former _layouts/404.html */
+import "../styles/main.scss";
+import Head from "../components/Head.astro";
+import Scripts from "../components/Scripts.astro";
+import { site } from "../data/site";
+
+interface Props {
+  fbTitle?: string | null;
+  fbDescription?: string | null;
+}
+
+const { fbTitle, fbDescription } = Astro.props;
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <Head path="" fbTitle={fbTitle} fbDescription={fbDescription} ogImage="/assets/fb_img.png" />
+  </head>
+
+  <body class="body--404">
+    <div class="loading">
+      <p class="loading_text f_displaySection">Loading ...</p>
+    </div>
+
+    <div class="main">
+      <div class="skewEffect">
+        <section class="container container-404">
+          <slot />
+        </section>
+      </div>
+    </div>
+
+    <Scripts />
+  </body>
+</html>

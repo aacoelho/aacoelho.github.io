@@ -1,0 +1,30 @@
+---
+/** Former about.md + _layouts/about.html */
+import { getEntry } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import InfoGroup from "../../components/InfoGroup";
+
+const about = await getEntry("pages", "about");
+if (!about) throw new Error("Missing src/content/pages/about.md");
+const a = about.data;
+---
+
+<Base title={a.title} tag={a.tag} path="/about/" fbTitle={a.fb_title} fbDescription={a.fb_description} fbImg={a.fb_img}>
+  <div class="info">
+    <p class="info_description f_textBig" set:html={a.bio} />
+    <img src={`/assets/${a.img}`} alt="profile" class="info_image" />
+  </div>
+
+  <div class="moreInfo">
+    <InfoGroup group={a.experience} />
+    <InfoGroup group={a.events} />
+    <InfoGroup group={a.awards} />
+    <InfoGroup group={a.tools} />
+
+    <div class="moreInfo_group moreInfo_group-link">
+      <a href="/assets/cv_angela_coelho.pdf" class="f_textNormal f_textNormal-link" download>Download full resume</a>
+    </div>
+
+    <InfoGroup group={a.website} />
+  </div>
+</Base>
