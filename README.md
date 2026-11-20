@@ -34,7 +34,8 @@ public/                 Copied as-is to the site root
   js/main.js            Loader, page transitions, scroll skew (uses jQuery)
   CNAME                 Custom domain
 src/
-  content/projects/     One Markdown file per project
+  content/projects/     One Markdown file per published project
+  content/projects/drafts/  Unpublished projects and the project template
   content/pages/about.md  About page content
   content.config.ts     Schema for the content above
   data/site.ts          Site settings, social links, navigation
@@ -47,13 +48,16 @@ scripts/visual-diff.mjs Visual regression check
 
 ## Adding or editing a project
 
-1. Copy [`src/content/projects/project-template.md`](src/content/projects/project-template.md) to `src/content/projects/<slug>.md`. The file name becomes the URL (`/<slug>`). The template explains every field.
+1. Copy [`src/content/projects/drafts/project-template.md`](src/content/projects/drafts/project-template.md) to `src/content/projects/drafts/<slug>.md`. The template explains every field.
 2. Put its gallery images in `public/assets/projects/<slug>/` and its avatar in `public/assets/`.
-3. Replace the placeholders and set `draft: false` to publish. Key fields:
-   - `index`: position on the home page; also decides the "See next project" order. Published projects should use consecutive numbers starting at 0.
-   - `draft: true` hides the project everywhere.
-   - `description`, `type`, captions and detail lines can contain HTML (links, `<i>`).
-   - Gallery items use `img` (file name) or `src` (a Vimeo embed URL).
+3. Replace the placeholders. Files in `drafts/` never appear on the site, but the build still checks them.
+4. To publish, move the file up to `src/content/projects/<slug>.md`. The file name becomes the URL (`/<slug>`). To unpublish, move it back into `drafts/`.
+
+Key fields:
+- `index`: position on the home page; also decides the "See next project" order. Published projects should use consecutive numbers starting at 0.
+- `draft: true` also hides a project without moving it.
+- `description`, `type`, captions and detail lines can contain HTML (links, `<i>`).
+- Gallery items use `img` (file name) or `src` (a Vimeo embed URL).
 
 The build fails with a clear message if a field is missing or has the wrong type.
 

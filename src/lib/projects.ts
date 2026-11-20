@@ -2,9 +2,12 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 export type Project = CollectionEntry<"projects">;
 
-/** Published projects, sorted by `index` (home page order). Drafts are hidden in production and dev alike, like Jekyll's `_` prefix. */
+/** Drafts live in src/content/projects/drafts/ (their id starts with "drafts/") or set `draft: true`. */
+export const isDraft = (p: Project) => p.id.startsWith("drafts/") || p.data.draft;
+
+/** Published projects, sorted by `index` (home page order). Drafts are hidden in production and dev alike. */
 export async function getProjects(): Promise<Project[]> {
-  const projects = await getCollection("projects", ({ data }) => !data.draft);
+  const projects = (await getCollection("projects")).filter((p) => !isDraft(p));
   return projects.sort((a, b) => a.data.index - b.data.index);
 }
 

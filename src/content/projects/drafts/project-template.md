@@ -2,18 +2,20 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # PROJECT TEMPLATE: copy this file to start a new project.
 #
-#   1. Copy it to src/content/projects/<slug>.md. The file name becomes the URL
-#      (e.g. my-project.md → angelacoelho.com/my-project).
+#   1. Copy it to src/content/projects/drafts/<slug>.md while you work on it.
+#      Everything in drafts/ is hidden from the site.
 #   2. Put the avatar in        public/assets/<img>
 #      and gallery images in    public/assets/projects/<slug>/
-#   3. Replace the placeholders below and set `draft: false` to publish.
+#   3. Replace the placeholders below.
+#   4. To publish, move the file up to src/content/projects/<slug>.md.
+#      The file name becomes the URL (my-project.md → angelacoelho.com/my-project).
 #
-# This file stays a draft, so it never appears on the site, but the build
+# This file lives in drafts/, so it never appears on the site, but the build
 # still checks it against the schema (src/content.config.ts).
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Hidden from the site while true.
-draft: true
+# Optional: set to true to hide a project without moving it into drafts/.
+draft: false
 
 # Used for the feed (newest first). Format: YYYY-MM-DD
 date: 2026-01-01

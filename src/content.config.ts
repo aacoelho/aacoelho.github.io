@@ -19,9 +19,11 @@ export const infoGroup = z.object({
 });
 
 const projects = defineCollection({
-  loader: glob({ pattern: "*.md", base: "./src/content/projects" }),
+  // Includes subfolders: files in drafts/ are drafts (see src/lib/projects.ts)
+  loader: glob({ pattern: "**/*.md", base: "./src/content/projects" }),
   schema: z.object({
     date: z.coerce.date(),
+    /** Hides the project. Files in src/content/projects/drafts/ are always hidden. */
     draft: z.boolean().default(false),
     title: z.string(),
     type: z.string(),
